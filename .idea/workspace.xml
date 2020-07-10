@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="348b0192-1dc8-41c1-8b5e-a54238bab6ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e3bopGN4TvhJztqlWVHLFU1wid" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="348b0192-1dc8-41c1-8b5e-a54238bab6ee" name="Default Changelist" comment="" />
+      <created>1593553400942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593553400942</updated>
+      <workItem from="1593553403234" duration="5749000" />
+      <workItem from="1593638986770" duration="31024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2932" y="318" width="1645" height="839" key="#Deployment" timestamp="1593638055391">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2932" y="318" width="1645" height="839" key="#Deployment/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1593638055391" />
+    <state x="3226" y="223" width="1218" height="992" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593638737345">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3226" y="223" width="1218" height="992" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1593638737345" />
+    <state x="3634" y="380" width="1174" height="714" key="ftp.server.browser" timestamp="1593637994123">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3634" y="380" width="1174" height="714" key="ftp.server.browser/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1593637994123" />
+    <state x="3419" y="320" width="840" height="1034" key="search.everywhere.popup" timestamp="1593727391545">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3419" y="320" width="840" height="1034" key="search.everywhere.popup/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1593727391545" />
+  </component>
+</project>

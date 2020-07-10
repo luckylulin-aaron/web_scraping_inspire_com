@@ -1,0 +1,6 @@
+Leprosy / Erythema Nodosum Leprosum,start_time,1594337933.4881952,0
+acne-face_8_3,start_time,1594338041.1803536,0
+acne-face_8_3,end_time,1594338041.180504,0
+Leprosy / Erythema Nodosum Leprosum,start_time,1594339105.6443517,0
+Leprosy / Erythema Nodosum Leprosum,end_time,1594339105.644471,0
+Freckles,start_time,1594340543.44759,19
