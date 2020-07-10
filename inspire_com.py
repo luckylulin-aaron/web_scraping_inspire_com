@@ -23,6 +23,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # local dependencies
 from config import *
+from util import *
 
 
 class InspireCom:
@@ -32,18 +33,9 @@ class InspireCom:
 
         # shall go to https://www.inspire.com/search/posts/?query=&p=1&sec=&g=&r=0&s=false
         self.base_url = 'https://www.inspire.com/search/posts/?query=&p=1&sec=&g=&r=0&s=false'
-        self.diagnosis = diagnosis
-
-        # incongito mode
-        chrome_options = webdriver.ChromeOptions()
-        if headless:
-            chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--incognito")
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
-        # browser settings
-        #self.driver.set_window_size(800,1200)
-        self.driver.set_window_position(0,0)
-
+        self.diagnosis, self.headless = diagnosis, headless
+        # get a driver object
+        self.driver = InspireCom.init_driver(self.headless)
         # tracker file
         self.tracker_fn = tracker_fn
         # default delay time for page loading (unit in seconds)
@@ -53,13 +45,14 @@ class InspireCom:
         '''Logs in with credentials.'''
         print('Signing in with credentials...')
         time.sleep(5)
-
+        #
+        username, password = get_login_credential()
         # find username button
         username_button = self.driver.find_element_by_xpath("//input[@id='email' and @type='text']")
-        username_button.send_keys(USERNAME)
+        username_button.send_keys(username)
         # find password button
         password_button = self.driver.find_element_by_xpath("//input[@id='pw' and @type='password']")
-        password_button.send_keys(PASSWORD)
+        password_button.send_keys(password)
 
         # login submit
         submit_button = self.driver.find_element_by_xpath("//button[@name='submit' and @type='submit']")
@@ -168,7 +161,7 @@ class InspireCom:
             if not exists(temp_op_dir):
                 os.makedirs(temp_op_dir)
             # do it
-            res = InspireCom.scrape_one_post(self.driver, href_link, soup, temp_op_dir)
+            res = InspireCom.scrape_one_post(href_link, temp_op_dir, self.headless)
             if res is True:
                 scraped_links += 1
             else:
@@ -178,14 +171,29 @@ class InspireCom:
         InspireCom.write2tracker(self.tracker_fn, self.diagnosis, scraped_links, False)
 
     @staticmethod
-    def scrape_one_post(driver_obj, link, soup_obj, op_dir):
+    def scrape_one_post(link, op_dir, headless):
         '''Given an url link with the post and image we want, download them.'''
-        driver = deepcopy(driver_obj)
+        driver = InspireCom.init_driver(headless)
         driver.get(link)
         print('Hanging on...')
         time.sleep(120)
 
+    @staticmethod
+    def init_driver(headless=True):
+        '''Returns a new web driver object.'''
 
+        # incongito mode
+        chrome_options = webdriver.ChromeOptions()
+        if headless:
+            chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--incognito")
+        
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # browser settings
+        driver.set_window_size(800,1200)
+        driver.set_window_position(0,0)
+        
+        return driver
 
     @staticmethod
     def write2tracker(tracker_fn, d_name, num_links, start=True):

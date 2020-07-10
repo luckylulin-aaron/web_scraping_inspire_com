@@ -1,5 +1,6 @@
 import os
 #import pandas as pd
+import random
 
 from os.path import join
 
@@ -39,12 +40,20 @@ def load_all_classes_names(fn='./data/disease_names.txt'):
     if not os.path.exists(fn):
         raise FileNotFoundError(f'Missing file={fn}!')
 
-    file_opener = open(fn,'r')
+    file_opener = open(fn,'r', encoding='utf-8')
     res = file_opener.readlines()
     # strip the very last newline character
     res = [x[:-1] for x in res]
     # remove 'nan'
     return list(filter(lambda x: x != 'nan', res))
+
+
+def get_login_credential():
+
+    index = random.randint(0, len(CREDENTIALS)-1)
+
+    return CREDENTIALS[index]
+
 
 if __name__ == '__main__':
 

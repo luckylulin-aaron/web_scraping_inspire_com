@@ -5,7 +5,6 @@ import logging
 import os
 import random
 import re
-import redis
 import requests
 import time
 import traceback

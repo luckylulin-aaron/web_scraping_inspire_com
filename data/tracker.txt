@@ -4,3 +4,5 @@ acne-face_8_3,end_time,1594338041.180504,0
 Leprosy / Erythema Nodosum Leprosum,start_time,1594339105.6443517,0
 Leprosy / Erythema Nodosum Leprosum,end_time,1594339105.644471,0
 Freckles,start_time,1594340543.44759,19
+Melanoma,start_time,1594415966.111088,19
+Tinea corporis,start_time,1594416840.4359043,11
