@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="348b0192-1dc8-41c1-8b5e-a54238bab6ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tracker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tracker.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/driver_inspire_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver_inspire_com.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inspire_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspire_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

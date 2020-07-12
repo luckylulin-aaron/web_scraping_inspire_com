@@ -21,6 +21,12 @@ from util import *
 
 
 def main_download(debug=False, headless=True):
+    '''Main function to download images and post contents.
+
+    Args:
+        debug (bool): Whether to run in debug mode.
+        headless (bool): Whether to let the browsers run in daemon process (i.e. windows won't pop up).
+    '''
 
     # hibernation time
     HIBER_TIME = 1
@@ -66,8 +72,8 @@ def main_download(debug=False, headless=True):
         else:
             this_diag = random.choice(remain_diags)
             this_diag = 'acne'
-            # handles single slash
-            this_diag = this_diag.replace('/', '_')
+            # strip invalid characters
+            this_diag = fix_str_for_directory(this_diag)
             print(f'randomly picked diagnosis=[{this_diag}]')
             # run
             try:
@@ -87,6 +93,14 @@ def main_download(debug=False, headless=True):
             ran_hiber_time = HIBER_TIME # + random.randint(1,5)
             print(f'hibernating for {ran_hiber_time} seconds.')
             time.sleep(ran_hiber_time)
+
+def main_examine_scraped_statistics(debug=False):
+    '''
+    Args:
+        debug (bool):
+    '''
+
+    root_dir = './data'
 
 
 if __name__ == '__main__':

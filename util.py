@@ -47,12 +47,25 @@ def load_all_classes_names(fn='./data/disease_names.txt'):
     # remove 'nan'
     return list(filter(lambda x: x != 'nan', res))
 
-
 def get_login_credential():
 
     index = random.randint(0, len(CREDENTIALS)-1)
 
     return CREDENTIALS[index]
+
+def fix_str_for_directory(your_str):
+    '''Strips away invalid characters that are not allowed in directory naming conventions.
+
+    Args:
+        your_str (str):
+    '''
+    res = your_str
+    chars2strip = [':', '/']
+
+    for char in chars2strip:
+        res = res.replace(char, '')
+
+    return res
 
 
 if __name__ == '__main__':

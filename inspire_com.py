@@ -122,14 +122,10 @@ class InspireCom:
                 self.tear_down()
 
         # [2] Proceed for downloading
-        # if not specified op_dir, make one
-        dx_name = deepcopy(self.diagnosis)
         # fix some directory naming problem
-        chars2strip = [':', '/']
-        for char in chars2strip:
-            dx_name = dx_name.replace(char, '')
+        dx_name = fix_str_for_directory(self.diagnosis)
         cur_op_dir = op_dir + '/' + dx_name
-
+        # if not specified op_dir, make one
         if not exists(cur_op_dir):
             os.makedirs(cur_op_dir)
 
@@ -181,11 +177,11 @@ class InspireCom:
 
         # keep scraping links, while not allow failure rate to exceed 50%
         print('[{}] start to work on each link...'.format(InspireCom.scrape_worker.__name__))
-        while scraped_links < num_links and failed_links < 0.5 * num_links:
+        while scraped_links < num_links and failed_links < 0.7 * num_links:
             # grab a link
             href_link = href_links.pop(0)
             # make a subdirectory to store
-            temp_op_dir = cur_op_dir + '/link=' + str(num_links - len(href_links))
+            temp_op_dir = cur_op_dir + '/link=' + str(scraped_links + failed_links + 1)
             if not exists(temp_op_dir):
                 os.makedirs(temp_op_dir)
             # do it
@@ -194,7 +190,12 @@ class InspireCom:
                 scraped_links += 1
             else:
                 failed_links += 1
-            time.sleep(random.randint(1, 2))
+            # if neither a text file nor a single image is downloaded, delete the folder
+            temp_files = os.listdir(temp_op_dir)
+            if len(temp_files) == 0:
+                shutil.rmtree(temp_op_dir)
+            # sleep
+            time.sleep(random.randint(0, 1))
 
         # write a tracker fn
         InspireCom.write2tracker(self.tracker_fn, self.diagnosis, scraped_links, False)
@@ -210,12 +211,20 @@ class InspireCom:
         '''
         driver = InspireCom.init_driver(headless)
         driver.get(link)
-        print('[{}] Loading new page...'.format(InspireCom.scrape_one_post.__name__))
+        print('[{}] Loading new page for link={}...'.format(InspireCom.scrape_one_post.__name__, link))
         time.sleep(random.randint(1, 2))
         scrape_res = False
 
         # locate and store post content
-        post_ele = driver.find_element_by_xpath("//p[@id='post-inner-content']")
+        try:
+            post_ele = driver.find_element_by_xpath("//p[@id='post-inner-content']")
+        except Exception as e:
+            post_ele = None
+
+        if post_ele is None:
+            print('[{}] cannot find post content.'.format(InspireCom.scrape_one_post.__name__, link))
+            return scrape_res
+
         post_op_fn, post_content = join(op_dir, 'post_content.txt'), f'Original Post URL: {link}{SEPARATOR}' + post_ele.text + '\n'
         InspireCom.write_post_content(post_content, post_op_fn)
         # if we save the post, consider True
@@ -292,7 +301,7 @@ class InspireCom:
 
         time_str = 'start_time' if start is True else 'end_time'
 
-        with open(tracker_fn, 'a') as outfile:
+        with open(tracker_fn, 'a', encoding='utf-8') as outfile:
             msgs = [d_name, time_str, time.time(), num_links]
             outfile.write(','.join([str(x) for x in msgs]) + '\n')
         outfile.close()
@@ -305,7 +314,7 @@ class InspireCom:
             text_str (str):
             op_fn (str):
         '''
-        with open(op_fn, 'a+') as outfile:
+        with open(op_fn, 'a+', encoding='utf-8') as outfile:
             outfile.write(text_str)
         outfile.close()
 
