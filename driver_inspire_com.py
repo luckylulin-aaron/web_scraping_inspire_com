@@ -65,7 +65,7 @@ def main_download(debug=False, headless=False):
             break
         else:
             this_diag = random.choice(remain_diags)
-            #this_diag = 'Leprosy / Erythema Nodosum Leprosum'
+            this_diag = 'Melanoma'
             # handles single slash
             this_diag = this_diag.replace('/', '_')
             print(f'randomly picked diagnosis=[{this_diag}]')
@@ -84,7 +84,7 @@ def main_download(debug=False, headless=False):
                 print(f'Exception={e} occurs, move on to next one...')
                 pass
             # sleeping...
-            ran_hiber_time = HIBER_TIME + 0 # random.randint(1,5)
+            ran_hiber_time = HIBER_TIME + 1000 # random.randint(1,5)
             print(f'hibernating for {ran_hiber_time} seconds.')
             time.sleep(ran_hiber_time)
 

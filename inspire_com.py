@@ -43,22 +43,38 @@ class InspireCom:
 
     def log_in(self):
         '''Logs in with credentials.'''
-        print('Signing in with credentials...')
+        print('[{}] Signing in with credentials...'.format(InspireCom.log_in.__name__))
         time.sleep(5)
-        #
         username, password = get_login_credential()
-        # find username button
-        username_button = self.driver.find_element_by_xpath("//input[@id='email' and @type='text']")
+
+        num_tries, max_allow = 0, 1
+
+        while num_tries < max_allow:            
+            # find username and password button, assuming we can find it normally
+            try:
+                username_button, password_button = InspireCom.find_username_and_password_button(self.driver)
+                print('[{}] found the two buttons rather easily, we can leave'.format(
+                    InspireCom.log_in.__name__))
+                break
+            except Exception as e:
+                # try one more click
+                print('[{}] trying to find another log-in button that navigates us to credential signing page...'.format(
+                    InspireCom.log_in.__name__))
+                num_tries += 1
+                #time.sleep(1000)
+                # to the 'Log In' button in the middle of the page
+                mid_login_button = self.driver.find_element_by_link_text('/signin.pl?slt=itt')
+                print('DEBUG: ', mid_login_button)
+                mid_login_button.click()
+
         username_button.send_keys(username)
-        # find password button
-        password_button = self.driver.find_element_by_xpath("//input[@id='pw' and @type='password']")
         password_button.send_keys(password)
 
         # login submit
         submit_button = self.driver.find_element_by_xpath("//button[@name='submit' and @type='submit']")
         submit_button.click()
 
-        print('Signed in successfully!')
+        print('[{}] Signed in successfully!'.format(InspireCom.log_in.__name__))
         time.sleep(random.randint(2,5))
 
     def tear_down(self):
@@ -84,12 +100,12 @@ class InspireCom:
             ))
         except Exception as e:
             logging.exception(e)
-            print('Could not find login button!')
+            print('[{}] Could not find login button!'.format(InspireCom.scrape_worker.__name__))
 
         # if asks us to login, do it
         if login_button:
             login_button.click()
-            print('it requires us to sign in...')
+            print('[{}] it requires us to sign in...'.format(InspireCom.scrape_worker.__name__))
             try:
                 self.log_in()
                 # re-get the url with query string b\c the page has been refreshed
@@ -98,7 +114,7 @@ class InspireCom:
                 self.driver.get(new_url)
             except Exception as e:
                 logging.exception(e)
-                print(f'Error={e} occurs, shutting down...')
+                print(f'[{InspireCom.scrape_worker.__name__}] Error={e} occurs, shutting down...')
                 self.tear_down()
 
         # [2] Proceed for downloading
@@ -118,10 +134,11 @@ class InspireCom:
             except Exception as e:
                 break
             if show_more_button is None:
-                print('no \'show me more\' button found!')
+                print('[{}] no \'show me more\' button found!'.format(InspireCom.scrape_worker.__name__))
                 break
             else:
-                print('finds one \'show me more\' button, click, scroll to bottom and wait!')
+                print('[{}] finds one \'show me more\' button, click, scroll to bottom and wait!'.format(
+                    InspireCom.scrape_worker.__name__))
                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 try:
                     show_more_button.click()
@@ -136,13 +153,13 @@ class InspireCom:
         # find all posts
         posts = soup.find_all('h2', attrs={'class': 'post__title'})
         # find their immediate parents, those are the href links we actually want
-        root_url = 'www.inspire.com/'
+        root_url = 'https://www.inspire.com'
         href_links = []
         for post in posts:
             href_links.append(root_url + post.parent.get('href'))
 
         num_links, scraped_links, failed_links = len(href_links), 0, 0
-        print(f'total number href links found: {num_links}')
+        print(f'[{InspireCom.scrape_worker.__name__}] total number href links found: {num_links}')
 
         # [4] Open link one by one, do the dirty work
         # write to a tracker
@@ -153,6 +170,7 @@ class InspireCom:
             return
 
         # keep scraping links, while not allow failure rate to exceed 50%
+        print('[{}] start to work on each link...'.format(InspireCom.scrape_worker.__name__))
         while scraped_links < num_links and failed_links < 0.5 * num_links:
             # grab a link
             href_link = href_links.pop(0)
@@ -161,11 +179,14 @@ class InspireCom:
             if not exists(temp_op_dir):
                 os.makedirs(temp_op_dir)
             # do it
+            if href_link != 'https://www.inspire.com/groups/melanoma-exchange/discussion/the-role-of-the-pathologist-in-melanoma-may-4-8-2020/':
+                continue
             res = InspireCom.scrape_one_post(href_link, temp_op_dir, self.headless)
             if res is True:
                 scraped_links += 1
             else:
                 failed_links += 1
+            time.sleep(random.randint(1,2))
 
         # write a tracker fn
         InspireCom.write2tracker(self.tracker_fn, self.diagnosis, scraped_links, False)
@@ -175,8 +196,56 @@ class InspireCom:
         '''Given an url link with the post and image we want, download them.'''
         driver = InspireCom.init_driver(headless)
         driver.get(link)
-        print('Hanging on...')
-        time.sleep(120)
+        print('[{}] Hanging on...'.format(InspireCom.scrape_one_post.__name__))
+        #time.sleep(120)
+        scrape_res = True
+
+        # locate and store post content
+        post_ele = driver.find_element_by_xpath("//p[@id='post-inner-content']")
+        post_op_fn = join(op_dir, 'post_content.txt')
+        InspireCom.write_post_content(post_ele.text, post_op_fn)
+
+        def _login():
+            login_button = driver.find_element_by_xpath("//a[@class='btn-header btn-header-login']")
+            login_button.click()
+            time.sleep(random.randint(1,2))
+            # find buttons for credentials
+            username_button, password_button = InspireCom.find_username_and_password_button(driver)
+            username, password = get_login_credential()
+            # send keys
+            username_button.send_keys(username)
+            password_button.send_keys(password)
+            time.sleep(random.randint(1,2))
+            # find the submit button
+            submit_button = driver.find_element_by_xpath("//input[@name='submit' and @type='submit' and @class='button']")
+            submit_button.click()
+            time.sleep(random.randint(1,2))
+
+        # if there's an image
+        try:
+            print('[{}] searching images...'.format(InspireCom.scrape_one_post.__name__))
+            img_ele = driver.find_element_by_xpath("//img[@alt='Log in to see member uploaded photos.']")
+            try:
+                _login()
+            except:
+                print('[{}] seems like we already logged in.'.format(InspireCom.scrape_one_post.__name__))
+            # retrieve the images
+
+            loaded_imgs = driver.find_elements_by_class_name('img')
+            for idx,img in enumerate(loaded_imgs):
+                img_src_link = img.src
+                if not str(img_src_link).startswith('https:'):
+                    continue
+                print('VERIFY LINK:', img_src_link)
+                urlretrieve(img_src_link, join(op_dir, str(idx+1)+'.jpg'))
+
+            time.sleep(100)
+
+        except Exception as e:
+            print('[{}] images not found.'.format(InspireCom.scrape_one_post.__name__))
+            scrape_res = False
+
+        return scrape_res
 
     @staticmethod
     def init_driver(headless=True):
@@ -207,3 +276,20 @@ class InspireCom:
             msgs = [d_name, time_str, time.time(), num_links]
             outfile.write(','.join([str(x) for x in msgs]) + '\n')
         outfile.close()
+
+    @staticmethod
+    def write_post_content(text_str, op_fn):
+        with open(op_fn, 'w') as outfile:
+            outfile.write(text_str)
+        outfile.close()
+
+    @staticmethod
+    def find_username_and_password_button(driver):
+        u_btn, p_btn = None, None
+        try:
+            u_btn = driver.find_element_by_xpath("//input[@id='email' and @type='text']")
+            p_btn = driver.find_element_by_xpath("//input[@id='pw' and @type='password']")
+        except Exception as e:
+            pass
+
+        return u_btn, p_btn
