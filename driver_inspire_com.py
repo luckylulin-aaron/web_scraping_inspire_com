@@ -20,7 +20,7 @@ from inspire_com import InspireCom
 from util import *
 
 
-def main_download(debug=False, headless=False):
+def main_download(debug=False, headless=True):
 
     # hibernation time
     HIBER_TIME = 1
@@ -65,7 +65,7 @@ def main_download(debug=False, headless=False):
             break
         else:
             this_diag = random.choice(remain_diags)
-            this_diag = 'Melanoma'
+            #this_diag = 'Melanoma'
             # handles single slash
             this_diag = this_diag.replace('/', '_')
             print(f'randomly picked diagnosis=[{this_diag}]')
@@ -84,11 +84,11 @@ def main_download(debug=False, headless=False):
                 print(f'Exception={e} occurs, move on to next one...')
                 pass
             # sleeping...
-            ran_hiber_time = HIBER_TIME + 1000 # random.randint(1,5)
+            ran_hiber_time = HIBER_TIME # + random.randint(1,5)
             print(f'hibernating for {ran_hiber_time} seconds.')
             time.sleep(ran_hiber_time)
 
 
 if __name__ == '__main__':
 
-    main_download()
+    main_download(False, True)

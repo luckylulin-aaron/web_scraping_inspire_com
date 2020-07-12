@@ -18,7 +18,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from typing import List, Any
-from urllib.request import urlopen
+from urllib.request import urlopen, urlretrieve
 from webdriver_manager.chrome import ChromeDriverManager
 
 # local dependencies
@@ -75,7 +75,7 @@ class InspireCom:
         submit_button.click()
 
         print('[{}] Signed in successfully!'.format(InspireCom.log_in.__name__))
-        time.sleep(random.randint(2,5))
+        time.sleep(random.randint(2, 5))
 
     def tear_down(self):
         try:
@@ -179,14 +179,12 @@ class InspireCom:
             if not exists(temp_op_dir):
                 os.makedirs(temp_op_dir)
             # do it
-            if href_link != 'https://www.inspire.com/groups/melanoma-exchange/discussion/the-role-of-the-pathologist-in-melanoma-may-4-8-2020/':
-                continue
             res = InspireCom.scrape_one_post(href_link, temp_op_dir, self.headless)
             if res is True:
                 scraped_links += 1
             else:
                 failed_links += 1
-            time.sleep(random.randint(1,2))
+            time.sleep(random.randint(1, 2))
 
         # write a tracker fn
         InspireCom.write2tracker(self.tracker_fn, self.diagnosis, scraped_links, False)
@@ -196,54 +194,35 @@ class InspireCom:
         '''Given an url link with the post and image we want, download them.'''
         driver = InspireCom.init_driver(headless)
         driver.get(link)
-        print('[{}] Hanging on...'.format(InspireCom.scrape_one_post.__name__))
-        #time.sleep(120)
-        scrape_res = True
+        print('[{}] Loading new page...'.format(InspireCom.scrape_one_post.__name__))
+        time.sleep(random.randint(1, 2))
+        scrape_res = False
 
         # locate and store post content
         post_ele = driver.find_element_by_xpath("//p[@id='post-inner-content']")
-        post_op_fn = join(op_dir, 'post_content.txt')
-        InspireCom.write_post_content(post_ele.text, post_op_fn)
+        post_op_fn, post_content = join(op_dir, 'post_content.txt'), f'Original Post URL: {link}\n--------[ Separator Line ]----------\n' + post_ele.text
+        InspireCom.write_post_content(post_content, post_op_fn)
+        # if we save the post, consider True
+        scrape_res = True
 
-        def _login():
-            login_button = driver.find_element_by_xpath("//a[@class='btn-header btn-header-login']")
-            login_button.click()
-            time.sleep(random.randint(1,2))
-            # find buttons for credentials
-            username_button, password_button = InspireCom.find_username_and_password_button(driver)
-            username, password = get_login_credential()
-            # send keys
-            username_button.send_keys(username)
-            password_button.send_keys(password)
-            time.sleep(random.randint(1,2))
-            # find the submit button
-            submit_button = driver.find_element_by_xpath("//input[@name='submit' and @type='submit' and @class='button']")
-            submit_button.click()
-            time.sleep(random.randint(1,2))
+        # if we need to login again to see the photos
+        img_ele = None
+        img_ele = WebDriverWait(driver, random.randint(2, 4)).until(
+            EC.presence_of_element_located((By.XPATH, "//img[@alt='Log in to see member uploaded photos.']"))
+        )
+        if img_ele is not None:
+            InspireCom.re_login_post_page(driver)
+        print('[{}] we already logged in; move on to find all images and store locally'.format(InspireCom.scrape_one_post.__name__))
 
-        # if there's an image
-        try:
-            print('[{}] searching images...'.format(InspireCom.scrape_one_post.__name__))
-            img_ele = driver.find_element_by_xpath("//img[@alt='Log in to see member uploaded photos.']")
-            try:
-                _login()
-            except:
-                print('[{}] seems like we already logged in.'.format(InspireCom.scrape_one_post.__name__))
-            # retrieve the images
-
-            loaded_imgs = driver.find_elements_by_class_name('img')
-            for idx,img in enumerate(loaded_imgs):
-                img_src_link = img.src
-                if not str(img_src_link).startswith('https:'):
-                    continue
-                print('VERIFY LINK:', img_src_link)
-                urlretrieve(img_src_link, join(op_dir, str(idx+1)+'.jpg'))
-
-            time.sleep(100)
-
-        except Exception as e:
-            print('[{}] images not found.'.format(InspireCom.scrape_one_post.__name__))
-            scrape_res = False
+        # retrieve the images
+        loaded_imgs = driver.find_element_by_class_name('lozad')
+        # filter
+        loaded_imgs = list(map(lambda x: str(x.get_attribute('data-src')), loaded_imgs))
+        loaded_imgs = list(filter(lambda x: x.startswith('https:'), loaded_imgs))
+        # load and save
+        for idx, img_link in enumerate(loaded_imgs):
+            img_fn = join(op_dir, str(idx + 1) + '.jpg')
+            urlretrieve(img_link, img_fn)
 
         return scrape_res
 
@@ -257,10 +236,10 @@ class InspireCom:
             chrome_options.add_argument("--headless")
         chrome_options.add_argument("--incognito")
         
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
         # browser settings
-        driver.set_window_size(800,1200)
-        driver.set_window_position(0,0)
+        driver.set_window_size(800, 1200)
+        driver.set_window_position(0, 0)
         
         return driver
 
@@ -279,7 +258,7 @@ class InspireCom:
 
     @staticmethod
     def write_post_content(text_str, op_fn):
-        with open(op_fn, 'w') as outfile:
+        with open(op_fn, 'a') as outfile:
             outfile.write(text_str)
         outfile.close()
 
@@ -293,3 +272,23 @@ class InspireCom:
             pass
 
         return u_btn, p_btn
+
+    @staticmethod
+    def re_login_post_page(driver):
+        '''Re-logins for scraping the webpage for individual posts.'''
+        print('[{}] we are now re-logging in...'.format(InspireCom.re_login_post_page.__name__))
+        login_button = driver.find_element_by_xpath("//a[@class='btn-header btn-header-login']")
+        login_button.click()
+        time.sleep(random.randint(1,2))
+        # find buttons for credentials
+        username_button, password_button = InspireCom.find_username_and_password_button(driver)
+        username, password = get_login_credential()
+        # send keys
+        username_button.send_keys(username)
+        password_button.send_keys(password)
+        time.sleep(random.randint(1,2))
+        # find the submit button
+        submit_button = driver.find_element_by_xpath("//input[@name='submit' and @type='submit' and @class='button']")
+        submit_button.click()
+        print('[{}] job complete, leave.'.format(InspireCom.re_login_post_page.__name__))
+        time.sleep(random.randint(1,2))

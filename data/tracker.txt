@@ -1,25 +1,5 @@
-Leprosy / Erythema Nodosum Leprosum,start_time,1594337933.4881952,0
-acne-face_8_3,start_time,1594338041.1803536,0
-acne-face_8_3,end_time,1594338041.180504,0
-Leprosy / Erythema Nodosum Leprosum,start_time,1594339105.6443517,0
-Leprosy / Erythema Nodosum Leprosum,end_time,1594339105.644471,0
-Freckles,start_time,1594340543.44759,19
-Melanoma,start_time,1594415966.111088,19
-Tinea corporis,start_time,1594416840.4359043,11
-urticaria pigmentosa2,start_time,1594424609.0862021,0
-urticaria pigmentosa2,end_time,1594424609.093237,0
-Melanoma,start_time,1594512808.2404187,19
-Melanoma,start_time,1594512857.6886275,19
-Melanoma,start_time,1594513058.2907646,19
-Melanoma,start_time,1594513367.0730162,19
-Melanoma,start_time,1594513507.48897,19
-Melanoma,start_time,1594513651.337031,19
-Melanoma,start_time,1594514135.4181159,19
-Melanoma,start_time,1594514980.3441958,19
-Melanoma,start_time,1594515148.6962624,19
-Melanoma,start_time,1594515291.3857043,19
-Melanoma,start_time,1594515985.318559,19
-Melanoma,start_time,1594516107.9218447,19
-Melanoma,start_time,1594516263.6817644,19
-Melanoma,start_time,1594516423.8775635,19
-Melanoma,start_time,1594517274.5311987,19
+Herpes Zoster-varicella,start_time,1594547996.337444,36
+Ingrown toenail,start_time,1594548186.7796717,17
+Periungual warts,start_time,1594548271.2472205,5
+Hydrocystoma _ Apocrine Hydrocystoma,start_time,1594548328.9819162,0
+Hydrocystoma _ Apocrine Hydrocystoma,end_time,1594548328.9879005,0
