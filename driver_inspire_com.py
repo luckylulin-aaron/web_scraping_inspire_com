@@ -65,7 +65,7 @@ def main_download(debug=False, headless=True):
             break
         else:
             this_diag = random.choice(remain_diags)
-            #this_diag = 'Melanoma'
+            this_diag = 'acne'
             # handles single slash
             this_diag = this_diag.replace('/', '_')
             print(f'randomly picked diagnosis=[{this_diag}]')

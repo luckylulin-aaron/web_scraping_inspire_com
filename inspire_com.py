@@ -61,7 +61,6 @@ class InspireCom:
                 print('[{}] trying to find another log-in button that navigates us to credential signing page...'.format(
                     InspireCom.log_in.__name__))
                 num_tries += 1
-                #time.sleep(1000)
                 # to the 'Log In' button in the middle of the page
                 mid_login_button = self.driver.find_element_by_link_text('/signin.pl?slt=itt')
                 print('DEBUG: ', mid_login_button)
@@ -78,6 +77,7 @@ class InspireCom:
         time.sleep(random.randint(2, 5))
 
     def tear_down(self):
+        '''Shuts down a webdriver object.'''
         try:
             self.driver.quit()
         except Exception as e:
@@ -85,7 +85,11 @@ class InspireCom:
             pass
 
     def scrape_worker(self, op_dir='./data'):
-        '''Major worker function responsible for scraping images for one diagnosis.'''
+        '''Major worker function responsible for scraping images for one diagnosis.
+
+        Args:
+            op_dir (str):
+        '''
         # [1] Preparation
         url, split_token = self.base_url, 'query='
         url = url.split(split_token)[0] + split_token + self.diagnosis + url.split(split_token)[-1]
@@ -119,7 +123,13 @@ class InspireCom:
 
         # [2] Proceed for downloading
         # if not specified op_dir, make one
-        cur_op_dir = op_dir + '/' + self.diagnosis
+        dx_name = deepcopy(self.diagnosis)
+        # fix some directory naming problem
+        chars2strip = [':', '/']
+        for char in chars2strip:
+            dx_name = dx_name.replace(char, '')
+        cur_op_dir = op_dir + '/' + dx_name
+
         if not exists(cur_op_dir):
             os.makedirs(cur_op_dir)
 
@@ -175,7 +185,7 @@ class InspireCom:
             # grab a link
             href_link = href_links.pop(0)
             # make a subdirectory to store
-            temp_op_dir = cur_op_dir + '/link=' + str(scraped_links)
+            temp_op_dir = cur_op_dir + '/link=' + str(num_links - len(href_links))
             if not exists(temp_op_dir):
                 os.makedirs(temp_op_dir)
             # do it
@@ -191,7 +201,13 @@ class InspireCom:
 
     @staticmethod
     def scrape_one_post(link, op_dir, headless):
-        '''Given an url link with the post and image we want, download them.'''
+        '''Given an url link with the post and image we want, download them.
+
+        Args:
+            link (str):
+            op_dir (str):
+            headless (bool):
+        '''
         driver = InspireCom.init_driver(headless)
         driver.get(link)
         print('[{}] Loading new page...'.format(InspireCom.scrape_one_post.__name__))
@@ -200,35 +216,50 @@ class InspireCom:
 
         # locate and store post content
         post_ele = driver.find_element_by_xpath("//p[@id='post-inner-content']")
-        post_op_fn, post_content = join(op_dir, 'post_content.txt'), f'Original Post URL: {link}\n--------[ Separator Line ]----------\n' + post_ele.text
+        post_op_fn, post_content = join(op_dir, 'post_content.txt'), f'Original Post URL: {link}{SEPARATOR}' + post_ele.text + '\n'
         InspireCom.write_post_content(post_content, post_op_fn)
         # if we save the post, consider True
         scrape_res = True
 
         # if we need to login again to see the photos
-        img_ele = None
-        img_ele = WebDriverWait(driver, random.randint(2, 4)).until(
-            EC.presence_of_element_located((By.XPATH, "//img[@alt='Log in to see member uploaded photos.']"))
-        )
+        try:
+            img_ele = driver.find_element_by_xpath("//img[@alt='Log in to see member uploaded photos.']")
+        except Exception as e:
+            img_ele = None
+
         if img_ele is not None:
             InspireCom.re_login_post_page(driver)
         print('[{}] we already logged in; move on to find all images and store locally'.format(InspireCom.scrape_one_post.__name__))
 
         # retrieve the images
-        loaded_imgs = driver.find_element_by_class_name('lozad')
-        # filter
+        loaded_imgs = driver.find_elements_by_class_name('lozad')
+        # filter and save to our text
         loaded_imgs = list(map(lambda x: str(x.get_attribute('data-src')), loaded_imgs))
+        post_content_part2 = f'{SEPARATOR}All found image links: \n' + ','.join(loaded_imgs) + '\n'
+        InspireCom.write_post_content(post_content_part2, post_op_fn)
+
         loaded_imgs = list(filter(lambda x: x.startswith('https:'), loaded_imgs))
-        # load and save
-        for idx, img_link in enumerate(loaded_imgs):
-            img_fn = join(op_dir, str(idx + 1) + '.jpg')
-            urlretrieve(img_link, img_fn)
+        post_content_part3 = f'{SEPARATOR}Number of image links after filtering:' + str(len(loaded_imgs)) + '\n'
+        InspireCom.write_post_content(post_content_part3, post_op_fn)
+
+        if len(loaded_imgs) == 0:
+            print('[{}] after filtering, no qualified images left, leave.'.format(InspireCom.scrape_one_post.__name__))
+        else:
+            # load and save locally
+            print('[{}] saving {} images via urlretrieve...'.format(InspireCom.scrape_one_post.__name__, len(loaded_imgs)))
+            for idx in range(len(loaded_imgs)):
+                img_fn = join(op_dir, str(idx+1) + '.jpg')
+                urlretrieve(loaded_imgs[idx], img_fn)
 
         return scrape_res
 
     @staticmethod
     def init_driver(headless=True):
-        '''Returns a new web driver object.'''
+        '''Returns a new web driver object.
+
+        Args:
+            headless (bool):
+        '''
 
         # incongito mode
         chrome_options = webdriver.ChromeOptions()
@@ -245,7 +276,17 @@ class InspireCom:
 
     @staticmethod
     def write2tracker(tracker_fn, d_name, num_links, start=True):
-        '''Write some messages to a text file.'''
+        '''Write some messages to a text file.
+
+        Args:
+            tracker_fn (str):
+            d_name (str):
+            num_links (int):
+            start (bool):
+
+        Raises:
+            TypeError (exception):
+        '''
         if not 'txt' in tracker_fn or tracker_fn is None:
             raise TypeError('Verify tracker file!')
 
@@ -258,12 +299,23 @@ class InspireCom:
 
     @staticmethod
     def write_post_content(text_str, op_fn):
-        with open(op_fn, 'a') as outfile:
+        '''Write some info about an individual post.
+
+        Args:
+            text_str (str):
+            op_fn (str):
+        '''
+        with open(op_fn, 'a+') as outfile:
             outfile.write(text_str)
         outfile.close()
 
     @staticmethod
     def find_username_and_password_button(driver):
+        '''Find the normal username and password button given a web driver object.
+
+        Args:
+            driver (webdriver object):
+        '''
         u_btn, p_btn = None, None
         try:
             u_btn = driver.find_element_by_xpath("//input[@id='email' and @type='text']")
@@ -275,7 +327,11 @@ class InspireCom:
 
     @staticmethod
     def re_login_post_page(driver):
-        '''Re-logins for scraping the webpage for individual posts.'''
+        '''Re-logins for scraping the webpage for individual posts.
+
+        Args:
+            driver (webdriver object):
+        '''
         print('[{}] we are now re-logging in...'.format(InspireCom.re_login_post_page.__name__))
         login_button = driver.find_element_by_xpath("//a[@class='btn-header btn-header-login']")
         login_button.click()

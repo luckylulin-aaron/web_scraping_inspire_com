@@ -1,5 +1,0 @@
-Herpes Zoster-varicella,start_time,1594547996.337444,36
-Ingrown toenail,start_time,1594548186.7796717,17
-Periungual warts,start_time,1594548271.2472205,5
-Hydrocystoma _ Apocrine Hydrocystoma,start_time,1594548328.9819162,0
-Hydrocystoma _ Apocrine Hydrocystoma,end_time,1594548328.9879005,0
