@@ -71,7 +71,7 @@ def main_download(debug=False, headless=True):
             break
         else:
             this_diag = random.choice(remain_diags)
-            this_diag = 'acne'
+            # this_diag = 'acne'
             # strip invalid characters
             this_diag = fix_str_for_directory(this_diag)
             print(f'randomly picked diagnosis=[{this_diag}]')
