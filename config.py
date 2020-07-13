@@ -1,4 +1,6 @@
-TRANSLATION_CSV_FN = '/mnt/dfs/aaronll/Research/DL_projects/data/derm-yz525_formatted.xlsx'
+TRANSLATION_EXCEL_FN = '/mnt/dfs/aaronll/Research/DL_projects/data/derm-yz525_formatted.xlsx'
+
+DIAGNOSIS_NAMES_EXCEL_FN = './data/皮肤名称-英文.xlsx'
 
 CREDENTIALS = [
 	# format := (username, password); you can create more accounts and append them to this list

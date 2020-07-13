@@ -1,18 +1,18 @@
 import os
-#import pandas as pd
+import pandas as pd
 import random
 
 from os.path import join
 
 from config import *
 
-
-def write_all_classes_to_text_file(op_dir='./data'):
+# NOTE: deprecated
+def write_all_classes_to_text_file_from_translation_excel_file(op_dir='./data'):
 
     op_fn = join(op_dir, 'disease_names.txt')
 
     labels = set()
-    xls = pd.ExcelFile(TRANSLATION_CSV_FN)
+    xls = pd.ExcelFile(TRANSLATION_EXCEL_FN)
     sheet_names = ['danderm', 'derm-atlas', 'derm101', 'dermSI', 'dermnet', 'derm-zh']
 
     # grab all English labels
@@ -24,9 +24,24 @@ def write_all_classes_to_text_file(op_dir='./data'):
         print('after: ', len(labels))
 
     # write to a text file
-    with open(op_fn, 'w') as fwrite:
+    with open(op_fn, 'w', encoding='utf-8') as fwrite:
         for item in labels:
-            fwrite.write(str(item)+'\n')
+            fwrite.write(str(item) + '\n')
+    fwrite.close()
+    print('Finish writing!')
+
+def write_all_classes_to_text_file_from_new_excel_file(op_dir='./data'):
+
+    op_fn = join(op_dir, 'disease_names.txt')
+
+    df = pd.read_excel(DIAGNOSIS_NAMES_EXCEL_FN)
+    labels = set(df['英文'].tolist())
+
+    print('total number of labels: {}'.format(len(labels)))
+
+    with open(op_fn, 'w', encoding='utf-8') as fwrite:
+        for item in labels:
+            fwrite.write(str(item) + '\n')
     fwrite.close()
     print('Finish writing!')
 
@@ -71,3 +86,5 @@ def fix_str_for_directory(your_str):
 if __name__ == '__main__':
 
     pass
+
+    write_all_classes_to_text_file_from_new_excel_file()
