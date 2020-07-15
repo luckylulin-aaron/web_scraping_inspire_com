@@ -1,0 +1,1376 @@
+trauma‐induced lymphoedema,start_time,1594684580.215925,0
+trauma‐induced lymphoedema,end_time,1594684580.2160509,0
+Kawasaki disease,start_time,1594684626.5833335,59
+allergic dermatitis,start_time,1594685121.0665698,38
+INFANTILE DERMATOSES,start_time,1594685478.6571927,0
+INFANTILE DERMATOSES,end_time,1594685478.6573045,0
+Haemorrhoids,start_time,1594685518.3665152,17
+Erosive adenomatosis of the nipple,start_time,1594685688.7149715,0
+Erosive adenomatosis of the nipple,end_time,1594685688.7151105,0
+Drug eruption,start_time,1594685726.1388826,16
+Ecthyma gangrenosum,start_time,1594685916.0897105,0
+Ecthyma gangrenosum,end_time,1594685916.0898542,0
+Klippel–Trenaunay–Weber syndrome,start_time,1594685953.3832066,0
+Klippel–Trenaunay–Weber syndrome,end_time,1594685953.383332,0
+purpura simplex,start_time,1594685994.026984,6
+Angiosarcoma,start_time,1594686101.0336757,59
+Polymorphic eruption of pregnancy,start_time,1594686649.6497018,11
+Sweet syndrome,start_time,1594686834.8700116,59
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,start_time,1594687313.3778481,0
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,end_time,1594687313.3780208,0
+Desmoplastic fi broblastoma ,start_time,1594687350.1566398,0
+Desmoplastic fi broblastoma ,end_time,1594687350.1567724,0
+targetoid haemosiderotic naevus,start_time,1594687387.991751,0
+targetoid haemosiderotic naevus,end_time,1594687387.9918807,0
+Progressive nodular histiocytosis,start_time,1594687426.3270373,3
+Takayasu arteritis,start_time,1594687491.7859557,19
+Squamous Cell Carcinoma and its Precursors ,start_time,1594687675.2281616,19
+Adenoid cystic carcinoma,start_time,1594687884.60859,19
+Warty dyskeratoma,start_time,1594688060.620421,0
+Warty dyskeratoma,end_time,1594688060.6205409,0
+Transient pustular melanosis,start_time,1594688097.3213716,0
+Transient pustular melanosis,end_time,1594688097.3215153,0
+eczema scroti,start_time,1594688135.1498704,0
+eczema scroti,end_time,1594688135.1500027,0
+Xanthoma disseminatum,start_time,1594688171.552532,0
+Xanthoma disseminatum,end_time,1594688171.5526636,0
+Multiple self‐healing squamous epithelioma,start_time,1594688207.3994772,0
+Multiple self‐healing squamous epithelioma,end_time,1594688207.3996003,0
+sézary syndrome,start_time,1594688244.799886,0
+sézary syndrome,end_time,1594688244.8000326,0
+Otitis externa,start_time,1594688282.234311,10
+idiopathic thrombocytopenic purpura,start_time,1594688401.3400364,17
+Myopericytoma,start_time,1594688573.9024396,0
+Myopericytoma,end_time,1594688573.9025607,0
+Acquired digital fi brokeratoma,start_time,1594688612.6558137,0
+Acquired digital fi brokeratoma,end_time,1594688612.6559577,0
+Drug‐induced exanthem,start_time,1594688650.8420525,0
+Drug‐induced exanthem,end_time,1594688650.8422058,0
+Peripheral primitive neuroectodermal tumour,start_time,1594688690.2872689,1
+Peripheral primitive neuroectodermal tumour,end_time,1594688695.0334783,0
+purpura of primary amyloidosis and purpura of myeloma,start_time,1594688733.8808992,10
+abdominal wall lymphoedema,start_time,1594688852.9920938,3
+primary cutaneous γδ t‐cell lymphoma,start_time,1594688918.3980205,4
+primary cutaneous γδ t‐cell lymphoma,end_time,1594688959.244079,4
+Dermatomyofibroma,start_time,1594688997.790768,0
+Dermatomyofibroma,end_time,1594688997.7909153,0
+Unilateral naevoid telangiectasia syndrome,start_time,1594689034.839469,0
+Unilateral naevoid telangiectasia syndrome,end_time,1594689034.8395925,0
+Sclerodermiform reaction to vitamin k and vitamin B12 injections,start_time,1594689071.2597513,0
+Sclerodermiform reaction to vitamin k and vitamin B12 injections,end_time,1594689071.2598708,0
+Malignant blue naevus,start_time,1594689108.207587,0
+Malignant blue naevus,end_time,1594689108.207707,0
+contact dermatitis,start_time,1594689148.4334278,19
+Viral warts,start_time,1594689361.4179378,18
+Acquired elastotic haemangioma,start_time,1594689532.3119643,0
+Acquired elastotic haemangioma,end_time,1594689532.3121068,0
+Focal mucinosis,start_time,1594689570.744864,0
+Focal mucinosis,end_time,1594689570.7450314,0
+Blepharitis, meibomian gland dysfunction, rosacea and seborrhoeic dermatitis,start_time,1594689607.1673288,0
+Blepharitis, meibomian gland dysfunction, rosacea and seborrhoeic dermatitis,end_time,1594689607.1674566,0
+Pruritus gravidarum,start_time,1594689644.321901,0
+Pruritus gravidarum,end_time,1594689644.3220189,0
+Superficial angiomyxoma,start_time,1594689681.0339139,0
+Superficial angiomyxoma,end_time,1594689681.0340297,0
+Seborrhoeic dermatitis,start_time,1594689718.9651668,15
+Napkin dermatitis,start_time,1594689880.6560416,16
+Piezogenic pedal papules,start_time,1594690072.993575,17
+Piezogenic pedal papules,end_time,1594690186.1576858,5
+post‐transplant lymphoproliferative disorder,start_time,1594690224.5225706,0
+post‐transplant lymphoproliferative disorder,end_time,1594690224.5227087,0
+Pearly papule of penis,start_time,1594690262.9212313,0
+Pearly papule of penis,end_time,1594690262.9213548,0
+Drug eruption,start_time,1594690302.2909503,16
+leukoplakia,start_time,1594690490.1621757,35
+Carcinoma of the penis,start_time,1594690808.963695,59
+Neonatal candidiasis,start_time,1594691416.4551678,4
+Atypical fibroxanthoma,start_time,1594691490.019424,0
+Atypical fibroxanthoma,end_time,1594691490.0195396,0
+Pseudomyogenic haemangioendothelioma,start_time,1594691527.2848496,0
+Pseudomyogenic haemangioendothelioma,end_time,1594691527.2849722,0
+Cryoglobulinaemic vasculitis,start_time,1594691563.5834188,0
+Cryoglobulinaemic vasculitis,end_time,1594691563.583565,0
+Hair loss in infancy,start_time,1594691601.4159107,19
+Omphalitis,start_time,1594691797.2197642,0
+Omphalitis,end_time,1594691797.219918,0
+Spectacle‐frame acanthoma,start_time,1594691832.94726,0
+Spectacle‐frame acanthoma,end_time,1594691832.9474022,0
+Florid oral papillomatosis,start_time,1594691871.459047,1
+Florid oral papillomatosis,end_time,1594691879.9150445,1
+Congenital syphilis,start_time,1594691919.6037056,14
+pagetoid reticulosis,start_time,1594692061.685491,0
+pagetoid reticulosis,end_time,1594692061.6856034,0
+Extramammary Paget disease,start_time,1594692100.85441,1
+Extramammary Paget disease,end_time,1594692107.702999,1
+Infantile myofibromatosis and adult myofibroma,start_time,1594692143.0572555,1
+Infantile myofibromatosis and adult myofibroma,end_time,1594692152.2196636,1
+Diffuse plane xanthomatosis,start_time,1594692191.752307,0
+Diffuse plane xanthomatosis,end_time,1594692191.752447,0
+Keratitis, ichthyosis and deafness syndrome,start_time,1594692230.677727,1
+Keratitis, ichthyosis and deafness syndrome,end_time,1594692236.392731,0
+Priapism,start_time,1594692285.2989864,58
+Myxoinfl ammatory fi broblastic sarcoma,start_time,1594692767.699167,0
+Myxoinfl ammatory fi broblastic sarcoma,end_time,1594692767.6992853,0
+Palmar and plantar fibromatosis (superficial fibromatoses）,start_time,1594692804.3282797,0
+Palmar and plantar fibromatosis (superficial fibromatoses）,end_time,1594692804.328498,0
+SQUAMOUS CELL CARCINOMA OF THE SKIN,start_time,1594692849.845376,58
+Angiomatoid fibrous histiocytoma,start_time,1594693413.1118143,0
+Angiomatoid fibrous histiocytoma,end_time,1594693413.111949,0
+Deep (‘aggressive’) angiomyxoma,start_time,1594693451.792119,0
+Deep (‘aggressive’) angiomyxoma,end_time,1594693451.7922378,0
+Primary telangiectasia,start_time,1594693491.8568437,17
+ARTERIAL AND ARTERIOLAR DISORDERS,start_time,1594693684.2705922,5
+dermatoses of the male genitalia ,start_time,1594693755.5525992,1
+dermatoses of the male genitalia ,end_time,1594693764.9763393,1
+Angiokeratoma circumscriptum,start_time,1594693803.5761874,0
+Angiokeratoma circumscriptum,end_time,1594693803.5763297,0
+Occupational irritant contact dermatitis,start_time,1594693841.5269215,17
+Haemorrhoids,start_time,1594694076.6469495,17
+Severe Cutaneous Adverse Reactions to Drugs,start_time,1594694245.5717983,19
+Cutaneous small‐vessel vasculitis,start_time,1594694432.6601248,1
+Cutaneous small‐vessel vasculitis,end_time,1594694440.0770028,1
+Pityriasis lichenoides,start_time,1594694477.8732848,8
+Intravascular papillary endothelial hyperplasia,start_time,1594694586.3894563,1
+Intravascular papillary endothelial hyperplasia,end_time,1594694591.8051522,1
+Disorders associated with venous malformations,start_time,1594694629.9777102,17
+Nevus flammeus,start_time,1594694791.384463,5
+Hereditary progressive mucinous histiocytosis,start_time,1594694861.7467651,0
+Hereditary progressive mucinous histiocytosis,end_time,1594694861.7468917,0
+Ischaemic fasciitis,start_time,1594694899.2005951,5
+Ischaemic fasciitis,end_time,1594694929.8120592,1
+Acrocyanosis,start_time,1594694970.5218575,19
+Pseudocyst of the ear,start_time,1594695135.0016658,8
+Speckled lentiginous naevus,start_time,1594695195.2689996,0
+Speckled lentiginous naevus,end_time,1594695195.269121,0
+Flushing and Blushing     ,start_time,1594695238.8721843,39
+Trichoepithelioma,start_time,1594695561.9093359,1
+Trichoepithelioma,end_time,1594695569.43196,1
+Solitary giant trichoepithelioma,start_time,1594695606.7897022,0
+Solitary giant trichoepithelioma,end_time,1594695606.7898233,0
+Congenital candidiasis,start_time,1594695646.3803325,6
+Epidermoid cysts,start_time,1594695738.002017,16
+Lichen sclerosus,start_time,1594695910.2995515,59
+Cowden syndrome,start_time,1594696428.0451007,38
+Fibrous hamartoma of infancy,start_time,1594696743.2610378,1
+Fibrous hamartoma of infancy,end_time,1594696753.5327253,1
+Herpes simplex virus,start_time,1594696792.9924223,19
+Idiopathic lipogranuloma,start_time,1594696958.8198242,0
+Idiopathic lipogranuloma,end_time,1594696958.8199377,0
+Pleomorphic fi broma,start_time,1594697000.832799,0
+Pleomorphic fi broma,end_time,1594697000.8329372,0
+Peutz–Jeghers syndrome,start_time,1594697039.698147,0
+Peutz–Jeghers syndrome,end_time,1594697039.6982994,0
+Cryoglobulinaemia,start_time,1594697078.957417,1
+Cryoglobulinaemia,end_time,1594697085.6806607,1
+Lingual thyroid,start_time,1594697129.4949346,39
+Drug reaction with eosinophilia and systemic symptoms,start_time,1594697494.8090086,19
+Hypertensive ischaemic leg ulcer,start_time,1594697686.6623027,9
+Human immunodeficiency virus ,start_time,1594697795.4027905,17
+Dermal non‐neural granular cell tumour,start_time,1594697959.3439069,0
+Dermal non‐neural granular cell tumour,end_time,1594697959.3440561,0
+‘Blueberry muffin’ baby (dermal erythropoiesis),start_time,1594697998.2458124,0
+‘Blueberry muffin’ baby (dermal erythropoiesis),end_time,1594697998.2459536,0
+ulcerative disease and penile  necrosis,start_time,1594698036.462928,3
+angioimmunoblastic t‐cell lymphoma,start_time,1594698092.6312249,0
+angioimmunoblastic t‐cell lymphoma,end_time,1594698092.6313615,0
+Erythema ab igne,start_time,1594698132.1512904,4
+Erythema ab igne,end_time,1594698158.0931103,1
+Chronic mucocutaneous candidosis,start_time,1594698196.6390364,1
+Chronic mucocutaneous candidosis,end_time,1594698206.0312533,1
+Non‐specific balanoposthitis,start_time,1594698242.6553693,0
+Non‐specific balanoposthitis,end_time,1594698242.6554883,0
+TUMOURS OF MUSCLE,start_time,1594698283.2032874,19
+Streptococcal dermatitisperianal cellulitis,start_time,1594698483.5094378,0
+Streptococcal dermatitisperianal cellulitis,end_time,1594698483.5095499,0
+malignant melanoma,start_time,1594698524.5535283,35
+Naevi,start_time,1594698838.8143508,6
+Tinea capitis,start_time,1594698933.1412492,4
+bowenoid papulosis,start_time,1594699007.9871666,9
+Mongolian spot,start_time,1594699114.4379916,19
+Vulval intraepithelial neoplasia,start_time,1594699290.4076393,8
+Calcific uraemic arteriolopathy,start_time,1594699387.7955446,0
+Calcific uraemic arteriolopathy,end_time,1594699387.7956653,0
+Digital papillary adenocarcinoma,start_time,1594699425.1789398,17
+Cellular neurothekeoma,start_time,1594699621.187849,0
+Cellular neurothekeoma,end_time,1594699621.1879961,0
+Mondor disease,start_time,1594699659.030184,8
+Meningothelial heterotopias,start_time,1594699756.8429976,0
+Meningothelial heterotopias,end_time,1594699756.8431177,0
+disseminated intravascular coagulation,start_time,1594699797.2971823,19
+Epithelioid sarcoma,start_time,1594699986.108588,29
+podoconiosis,start_time,1594700289.9495173,0
+podoconiosis,end_time,1594700289.949636,0
+Skin tags,start_time,1594700330.6113286,18
+Hibernoma,start_time,1594700494.4822814,1
+Hibernoma,end_time,1594700503.0847971,1
+Inverted follicular keratosis,start_time,1594700542.004221,1
+Inverted follicular keratosis,end_time,1594700552.36821,1
+Lyme disease,start_time,1594700593.5635726,39
+Lichen planus,start_time,1594700950.8745904,36
+Multiple mucosal neuroma syndrome,start_time,1594701129.94066,7
+Meyerson naevus,start_time,1594701222.364488,0
+Meyerson naevus,end_time,1594701222.3646111,0
+Milia,start_time,1594701260.2984924,19
+swollen arm,start_time,1594701463.4690843,38
+drug reactions,start_time,1594701834.3043573,17
+Lipoedema,start_time,1594701996.266472,19
+Recurrent mouth ulcers,start_time,1594702186.9798884,18
+ecthyma gangrenosum,start_time,1594702290.435341,0
+ecthyma gangrenosum,end_time,1594702290.4354608,0
+Neonatal candidiasis,start_time,1594702328.4627793,4
+friction blisters,start_time,1594702404.8839629,18
+Sweet syndrome,start_time,1594702577.4872398,59
+foreign-body reaction,start_time,1594703088.8573546,19
+Anetoderma of prematurity,start_time,1594703275.4960828,0
+Anetoderma of prematurity,end_time,1594703275.4962032,0
+eczematide-like purpura,start_time,1594703312.256752,0
+eczematide-like purpura,end_time,1594703312.2569017,0
+Tuberous sclerosis,start_time,1594703355.5527368,38
+Carcinoma of the scrotum,start_time,1594703680.3442073,18
+Microcystic adnexal carcinoma,start_time,1594703872.2923431,1
+Microcystic adnexal carcinoma,end_time,1594703880.8182847,1
+Hand, foot and mouth disease,start_time,1594703920.5217612,18
+Tumours of anogenital mammary‐like glands,start_time,1594704100.9628797,0
+Tumours of anogenital mammary‐like glands,end_time,1594704100.96306,0
+Storiform collagenoma,start_time,1594704139.5451498,0
+Storiform collagenoma,end_time,1594704139.5452828,0
+Tylosis,start_time,1594704176.7045555,0
+Tylosis,end_time,1594704176.7047,0
+primary cutaneous anaplastic (Cd30+) large‐cell lymphoma,start_time,1594704214.2604637,0
+primary cutaneous anaplastic (Cd30+) large‐cell lymphoma,end_time,1594704214.260607,0
+Phthiriasis,start_time,1594704254.0794284,0
+Phthiriasis,end_time,1594704254.0795681,0
+Allergic contact dermatitis,start_time,1594704292.1081283,19
+Leprosy,start_time,1594704499.1084392,13
+Henoch-Schonlein purpura,start_time,1594704655.0577486,58
+Pressure injury and pressure ulcer,start_time,1594705146.7707062,19
+Pruritus ani,start_time,1594705344.8325908,16
+Kaposiform haemangioendothelioma,start_time,1594705501.3661993,0
+Kaposiform haemangioendothelioma,end_time,1594705501.3663394,0
+Livedo reticularis,start_time,1594705542.9763863,18
+Livedo reticularis,end_time,1594705660.8103712,5
+Neonatal listeriosis,start_time,1594705698.7383175,0
+Neonatal listeriosis,end_time,1594705698.7384398,0
+mycosis fungoides,start_time,1594705739.0287144,17
+Angiosarcoma,start_time,1594705923.0633113,18
+Muir–Torre syndrome,start_time,1594706090.4807453,0
+Muir–Torre syndrome,end_time,1594706090.4808698,0
+Infantile haemangiomas,start_time,1594706127.790193,1
+Infantile haemangiomas,end_time,1594706136.2626975,1
+Steatocystoma multiplex,start_time,1594706174.4267988,6
+BASAL CELL CARCINOMA,start_time,1594706256.3201783,39
+Behçet disease,start_time,1594706599.71298,2
+Viral warts,start_time,1594706656.2182643,18
+Epithelioid angiosarcoma,start_time,1594706839.8591082,2
+Epithelioid angiosarcoma,end_time,1594706860.2733917,2
+Gianotti–Crosti syndrome,start_time,1594706897.4233084,0
+Gianotti–Crosti syndrome,end_time,1594706897.4234214,0
+Chronic penile oedema,start_time,1594706933.6654384,1
+Chronic penile oedema,end_time,1594706939.5424898,0
+contact dermatitis,start_time,1594706978.7300432,19
+Scabies,start_time,1594707160.667936,19
+Vulva Pruritus,start_time,1594707395.478804,7
+BASAL CELL CARCINOMA,start_time,1594707498.1029356,39
+purpura simplex,start_time,1594707843.9823012,6
+Dermatoses of the Female Genitalia ,start_time,1594707940.3134875,1
+Dermatoses of the Female Genitalia ,end_time,1594707949.4092393,1
+seCondary Cutaneous b‐CeLL Lymphomas,start_time,1594707990.72879,1
+seCondary Cutaneous b‐CeLL Lymphomas,end_time,1594707999.3369272,1
+Cutaneous Vasculitis     ,start_time,1594708037.8659022,19
+Granuloma faciale,start_time,1594708247.9920459,19
+Malignant eccrine poroma,start_time,1594708440.8748024,0
+Malignant eccrine poroma,end_time,1594708440.8749413,0
+abdominal wall lymphoedema,start_time,1594708476.9637163,3
+Haemangioma,start_time,1594708558.674842,31
+Congenital meianocytic neavi,start_time,1594708868.1725655,0
+Congenital meianocytic neavi,end_time,1594708868.1727302,0
+Xeroderma pigmentosum,start_time,1594708908.0489159,4
+Xeroderma pigmentosum,end_time,1594708936.5229292,1
+NEUROVASCULAR DISORDERS,start_time,1594708981.6376286,38
+Trichilemmal cysts,start_time,1594709374.834343,2
+Trichilemmal cysts,end_time,1594709387.97432,0
+leukoplakia,start_time,1594709429.4185088,35
+Benign migratory glossitis (geographic tongue),start_time,1594709565.9630268,4
+Sebaceous adenomas and sebaceomas,start_time,1594709635.1115785,0
+Sebaceous adenomas and sebaceomas,end_time,1594709635.111706,0
+Sebaceous carcinoma,start_time,1594709674.8627656,16
+capillary hemangioma,start_time,1594709855.3039982,17
+MALFORMATIONS,start_time,1594710032.9353075,39
+Immunobullous disease,start_time,1594710397.4660234,0
+Immunobullous disease,end_time,1594710397.466158,0
+Vulval intraepithelial neoplasia,start_time,1594710437.6393034,8
+Dermoid cysts,start_time,1594710539.926253,39
+Occupational dyspigmentation,start_time,1594710881.648362,0
+Occupational dyspigmentation,end_time,1594710881.6485145,0
+Tinea,start_time,1594710922.3831773,14
+Adenoid cystic carcinoma,start_time,1594711099.0410845,19
+Necrolytic migratory erythema, ,start_time,1594711283.2378953,5
+Mucous membrane pemphigoid,start_time,1594711370.873764,9
+Tinea capitis,start_time,1594711489.610954,4
+Papillary hidradenoma,start_time,1594711567.1810496,0
+Papillary hidradenoma,end_time,1594711567.1812027,0
+Irritant eczema,start_time,1594711599.3735807,40
+primary Cutaneous Cd30+ LymphoproLIFeratIve dIsorders,start_time,1594712002.610852,0
+primary Cutaneous Cd30+ LymphoproLIFeratIve dIsorders,end_time,1594712002.6109757,0
+Hypocomplementaemic urticarial vasculitis,start_time,1594712040.843924,0
+Hypocomplementaemic urticarial vasculitis,end_time,1594712040.8440568,0
+Liposarcoma,start_time,1594712086.3694787,59
+Leiomyoma,start_time,1594712590.373515,39
+Arterial leg ulcer,start_time,1594712945.6011972,18
+Lingual tonsil,start_time,1594713147.8979528,19
+PUSTULAR CONDITIONS OF THE SCALP ,start_time,1594713360.0765197,17
+Pedal papules of infancy,start_time,1594713610.3390098,1
+Pedal papules of infancy,end_time,1594713616.066546,0
+Atopy and atopic eye disease,start_time,1594713653.523596,8
+Scabies,start_time,1594713758.9456115,19
+Malignant fibrous histiocytoma,start_time,1594713987.555896,17
+Fetal varicella syndrome,start_time,1594714175.033395,10
+Pilonidal sinus,start_time,1594714315.5470405,8
+Superficial venous thrombosis,start_time,1594714413.9208093,38
+Pruritus ani,start_time,1594714808.9303703,16
+allergic vasculitis,start_time,1594714980.1073039,19
+Raynaud phenomenon,start_time,1594715187.991877,60
+Acquired progressive lymphangioma,start_time,1594715826.3033855,1
+Acquired progressive lymphangioma,end_time,1594715838.1921825,1
+Verruciform xanthoma,start_time,1594715878.729037,0
+Verruciform xanthoma,end_time,1594715878.7291691,0
+Digital papillary adenocarcinoma,start_time,1594715916.6794152,17
+seCondary Cutaneous t‐CeLL Lymphomas,start_time,1594716120.953242,4
+seCondary Cutaneous t‐CeLL Lymphomas,end_time,1594716167.4509118,4
+primary lymphoedema,start_time,1594716214.600947,45
+Hand, foot and mouth disease,start_time,1594716696.2109957,18
+De Lange syndrome,start_time,1594716886.426259,19
+Scalp dysaesthesia ,start_time,1594717080.373552,0
+Scalp dysaesthesia ,end_time,1594717080.3741217,0
+mixed leg ulcer,start_time,1594717124.8808548,36
+Disorders associated with venous malformations,start_time,1594717203.5177028,17
+Small plaque parapsoriasis,start_time,1594717373.7382565,6
+Small plaque parapsoriasis,end_time,1594717467.0289624,6
+FIBROEPITHELIAL BASAL CELL CARCINOMA,start_time,1594717505.848587,1
+FIBROEPITHELIAL BASAL CELL CARCINOMA,end_time,1594717513.386045,0
+Cold panniculitis,start_time,1594717552.758205,13
+Toxic erythema of the newborn,start_time,1594717710.2863417,5
+Napkin dermatitis,start_time,1594717788.7831419,16
+Raynaud phenomenon,start_time,1594718002.617047,60
+Double lip,start_time,1594719088.404984,18
+antiphospholipid antibodylupus anticoagulant syndrome,start_time,1594719312.9666724,0
+antiphospholipid antibodylupus anticoagulant syndrome,end_time,1594719312.9668112,0
+Pseudolymphoma,start_time,1594719352.2206328,3
+Penile acne,start_time,1594719414.6127505,11
+Crohn disease,start_time,1594719564.132569,37
+Pityriasis lichenoides,start_time,1594719914.9430928,8
+Trichilemmoma,start_time,1594720027.5405657,0
+Trichilemmoma,end_time,1594720027.5406828,0
+Verrucous carcinoma,start_time,1594720066.6659963,4
+Acne of chemical origin,start_time,1594720137.3428745,11
+Pilonidal sinus,start_time,1594720263.7904344,8
+Pseudocyst of the ear,start_time,1594720363.0948322,8
+Dermal nerve sheath myxoma,start_time,1594720470.142873,0
+Dermal nerve sheath myxoma,end_time,1594720470.1430345,0
+Verrucous carcinomagiant condyloma Buschke–Löwenstein tumour,start_time,1594720508.0435414,0
+Verrucous carcinomagiant condyloma Buschke–Löwenstein tumour,end_time,1594720508.0436804,0
+Sebaceous carcinoma,start_time,1594720545.4827938,16
+Sclerosing lymphangitis,start_time,1594720740.077961,1
+Sclerosing lymphangitis,end_time,1594720748.8708413,0
+TELANGIECTASES,start_time,1594720792.6702468,25
+diffuse large b‐cell lymphoma,start_time,1594721163.8091443,6
+Multicentric reticulohistiocytosis,start_time,1594721255.9234626,5
+Complex of myxomas, spotty pigmentation and endocrine overactivity,start_time,1594721350.5369258,2
+Complex of myxomas, spotty pigmentation and endocrine overactivity,end_time,1594721364.9677393,2
+Klippel–Trenaunay syndrome,start_time,1594721403.5218174,0
+Klippel–Trenaunay syndrome,end_time,1594721403.5219433,0
+Zoon’s vulvitis,start_time,1594721440.3930922,0
+Zoon’s vulvitis,end_time,1594721440.3932314,0
+Hidradentitis suppurativa,start_time,1594721479.7960846,0
+Hidradentitis suppurativa,end_time,1594721479.7962024,0
+Spindle cell haemangioma,start_time,1594721517.5464387,0
+Spindle cell haemangioma,end_time,1594721517.5465584,0
+purpura of primary amyloidosis and purpura of myeloma,start_time,1594721554.9112587,10
+Allergic contact dermatitis,start_time,1594721679.6924822,19
+Lymphocytoma cutis,start_time,1594721900.5877407,1
+Lymphocytoma cutis,end_time,1594721907.4180515,0
+Drug reaction with eosinophilia and systemic symptoms,start_time,1594721946.0625408,19
+DRUG‐ AND CHEMICAL‐INDUCED PHOTOSENSITIVITY,start_time,1594722156.0836878,0
+DRUG‐ AND CHEMICAL‐INDUCED PHOTOSENSITIVITY,end_time,1594722156.084166,0
+Infantile psoriasis,start_time,1594722195.7068198,12
+Eccrine gland carcinomas,start_time,1594722360.540655,1
+Eccrine gland carcinomas,end_time,1594722368.4154449,1
+Tuberous sclerosis,start_time,1594722410.1572516,38
+Acrocyanosis,start_time,1594722741.1058736,19
+Histiocytic sarcoma,start_time,1594722923.7764177,26
+pretibial myxoedema,start_time,1594723179.9305818,2
+Solitary venous malformations,start_time,1594723235.030071,6
+Congenital syphilis,start_time,1594723338.5726943,14
+Digital papillary adenocarcinoma,start_time,1594723483.4372952,17
+Generalized eruptive keratoacanthoma,start_time,1594723681.4819002,1
+Generalized eruptive keratoacanthoma,end_time,1594723693.4406598,1
+Tinea,start_time,1594723731.8797624,14
+malakoplakia,start_time,1594723895.0226667,3
+Neuromuscular hamartoma,start_time,1594723953.3230574,4
+Stucco keratosis,start_time,1594724029.9613714,3
+Scabies,start_time,1594724103.125203,19
+purpura fulminans,start_time,1594724335.5476148,0
+purpura fulminans,end_time,1594724335.5477605,0
+Hair follicle naevus,start_time,1594724373.039819,0
+Hair follicle naevus,end_time,1594724373.0399332,0
+Naevi,start_time,1594724409.4063911,6
+Venous lakes,start_time,1594724503.4326239,19
+Granulomatosis with polyangiitis,start_time,1594724710.944,19
+Trichoblastoma,start_time,1594724912.7504253,0
+Trichoblastoma,end_time,1594724912.7505536,0
+primary Cutaneous t‐CeLL Lymphomas, ,start_time,1594724949.9446151,4
+primary Cutaneous t‐CeLL Lymphomas, ,end_time,1594724999.0046806,4
+Sebaceous adenoma,start_time,1594725036.9412012,4
+Sebaceous adenoma,end_time,1594725069.3800254,4
+Reactive arthritis,start_time,1594725109.7040136,19
+paintful bruising syndrome,start_time,1594725351.9117894,18
+Angioma serpiginosum,start_time,1594725564.8502328,0
+Angioma serpiginosum,end_time,1594725564.850371,0
+Cold panniculitis,start_time,1594725602.6265168,13
+Glomovenous malformations,start_time,1594725762.8330789,0
+Glomovenous malformations,end_time,1594725762.833193,0
+Clear cell sarcoma,start_time,1594725800.7039216,19
+Staphylococcal scalded skin syndrome,start_time,1594725998.5589743,1
+Staphylococcal scalded skin syndrome,end_time,1594726007.0029163,0
+Elastofibroma,start_time,1594726047.8821785,0
+Elastofibroma,end_time,1594726047.882354,0
+Granular cell tumour,start_time,1594726092.4063704,27
+Pseudolymphoma,start_time,1594726348.3476264,3
+Eccrine syringofibroadenoma,start_time,1594726409.4565508,0
+Eccrine syringofibroadenoma,end_time,1594726409.456701,0
+Psoriasis,start_time,1594726448.0780547,60
+Apocrine hidrocystoma,start_time,1594727127.148489,0
+Apocrine hidrocystoma,end_time,1594727127.1486182,0
+Seborrhoeic keratosis,start_time,1594727168.2959726,2
+Seborrhoeic keratosis,end_time,1594727182.9650645,0
+Occupationally induced skin tumours,start_time,1594727223.397327,19
+Digital papillary adenocarcinoma,start_time,1594727448.4439735,17
+Acanthosis nigricans,start_time,1594727647.0326107,15
+Black heel and palm,start_time,1594727825.0760167,18
+Trichoadenoma,start_time,1594728046.6867473,0
+Trichoadenoma,end_time,1594728046.686928,0
+paroxysmal hand hematoma,start_time,1594728085.7412982,6
+Mastocytosis,start_time,1594728169.6674173,40
+Lentiginoses,start_time,1594728522.991677,0
+Lentiginoses,end_time,1594728522.9917924,0
+Congenital syphilis,start_time,1594728561.3111598,14
+Milia,start_time,1594728711.8653722,19
+Kindler syndrome,start_time,1594728923.176353,3
+Sinusoidal haemangioma,start_time,1594728990.2989013,0
+Sinusoidal haemangioma,end_time,1594728990.2990382,0
+Psoriasis,start_time,1594729023.118985,60
+Erdheim–Chester disease,start_time,1594729898.3425117,2
+Erdheim–Chester disease,end_time,1594729926.6370063,2
+Paraffinoma,start_time,1594729966.3315187,0
+Paraffinoma,end_time,1594729966.3316386,0
+Langerhans cell histiocytosis,start_time,1594730005.5823288,18
+Cleft lippalate,start_time,1594730213.6065621,0
+Cleft lippalate,end_time,1594730213.6066806,0
+livedo reticularis,start_time,1594730252.2934237,18
+livedo reticularis,end_time,1594730377.9514165,5
+TUMOURS OF PERIVASCULAR CELLS,start_time,1594730418.046707,10
+Naevi of the nail matrix or nail bed,start_time,1594730553.628209,0
+Naevi of the nail matrix or nail bed,end_time,1594730553.6283197,0
+erythroplasia of Queyrat,start_time,1594730592.5324378,1
+erythroplasia of Queyrat,end_time,1594730601.6750124,1
+Solar or actinic lentigo,start_time,1594730638.810839,0
+Solar or actinic lentigo,end_time,1594730638.8109722,0
+Basal cell carcinoma,start_time,1594730683.9342036,39
+Aphthous ulcers,start_time,1594731049.6439042,37
+Steatocystoma multiplex,start_time,1594731392.2247307,6
+Angiomyofibroblastoma,start_time,1594731476.842865,0
+Angiomyofibroblastoma,end_time,1594731476.842981,0
+Progressive nodular histiocytosis,start_time,1594731514.3305628,3
+Hidroacanthoma simplex,start_time,1594731576.075642,0
+Hidroacanthoma simplex,end_time,1594731576.0757804,0
+Cosmetic dermatitis,start_time,1594731614.6001887,19
+Plexiform neurofibroma,start_time,1594731823.9254727,18
+Pigmented purpurpic dermatosis,start_time,1594732015.4377887,0
+Pigmented purpurpic dermatosis,end_time,1594732015.4379625,0
+Endocrine mucin‐producing sweat gland carcinoma,start_time,1594732053.3255732,0
+Endocrine mucin‐producing sweat gland carcinoma,end_time,1594732053.3256915,0
+Gardner syndrome,start_time,1594732090.2020917,18
+Cowden syndrome,start_time,1594732273.0410955,38
+Kaposi sarcoma,start_time,1594732636.262664,19
+Reactive arthritis,start_time,1594732873.558939,19
+swollen arm,start_time,1594733114.4784575,38
+Plaque‐like CD34‐positive dermal fi broma,start_time,1594733495.417619,0
+Plaque‐like CD34‐positive dermal fi broma,end_time,1594733495.417748,0
+Congenital syphilis,start_time,1594733532.3803918,14
+obesity‐related lymphoedema,start_time,1594733672.8894758,0
+obesity‐related lymphoedema,end_time,1594733672.8896024,0
+neonatal purpura,start_time,1594733710.5508149,7
+venous ganrene,start_time,1594733798.9073646,0
+venous ganrene,end_time,1594733798.9074972,0
+leukoplakia,start_time,1594733840.0483456,35
+Erythema elevatum diutinum,start_time,1594733966.3439014,3
+Erythema elevatum diutinum,end_time,1594733996.133996,3
+Acne of chemical origin,start_time,1594734033.3099022,11
+Venous thrombosis,start_time,1594734154.4593687,60
+Sebaceous carcinoma,start_time,1594734678.8202033,16
+Transplacental pemphigoid gestationis,start_time,1594734873.3846955,0
+Transplacental pemphigoid gestationis,end_time,1594734873.3848119,0
+tylosis,start_time,1594734910.0959983,0
+tylosis,end_time,1594734910.0961137,0
+Sweet syndrome,start_time,1594734957.0248795,59
+Periporitis staphylogenes and sweat gland abscesses,start_time,1594735470.5537155,0
+Periporitis staphylogenes and sweat gland abscesses,end_time,1594735470.5538476,0
+Glomus tumour,start_time,1594735511.3980508,37
+Squamous cell carcinoma,start_time,1594735891.318871,58
+Solar Dermatitis,start_time,1594736521.7525213,16
+Zoon balanitis,start_time,1594736715.8654835,0
+Zoon balanitis,end_time,1594736715.865687,0
+Collodion baby,start_time,1594736754.478566,0
+Collodion baby,end_time,1594736754.4787016,0
+Nuchal‐type fibroma,start_time,1594736792.5039568,0
+Nuchal‐type fibroma,end_time,1594736792.5040917,0
+Hydroa vacciniforme,start_time,1594736830.1407893,0
+Hydroa vacciniforme,end_time,1594736830.140922,0
+Lip pits and sinuses,start_time,1594736867.6810594,18
+Bowen disease,start_time,1594737060.0570903,36
+Carcinoma of the scrotum,start_time,1594737375.4425485,18
+Irritant contact dermatitis,start_time,1594737570.328255,57
+Cutaneous Lymphomas ,start_time,1594737908.267702,18
+Progressive nodular histiocytosis,start_time,1594738105.3571608,3
+Pilomatricarcinoma,start_time,1594738169.430243,0
+Pilomatricarcinoma,end_time,1594738169.4303856,0
+Blistering distal dactylitis,start_time,1594738209.44176,4
+purpura senilis,start_time,1594738303.6645727,0
+purpura senilis,end_time,1594738303.664704,0
+Haemorrhoids,start_time,1594738343.1403975,17
+Felty syndrome,start_time,1594738517.4147902,18
+Severe Cutaneous Adverse Reactions to Drugs,start_time,1594738678.691825,34
+Clear cell acanthoma,start_time,1594739018.4752722,0
+Clear cell acanthoma,end_time,1594739018.4754288,0
+Cutaneous Candida infection,start_time,1594739057.8997092,13
+Dermatoses of the Eye, Eyelids and Eyebrows ,start_time,1594739205.0325158,1
+Dermatoses of the Eye, Eyelids and Eyebrows ,end_time,1594739214.7421017,1
+Lyme disease,start_time,1594739259.2505283,39
+Solar urticaria,start_time,1594739364.8615732,19
+Crohn disease,start_time,1594739531.967601,37
+Lichenoid drug eruptions,start_time,1594739822.4367952,6
+Vitiligo,start_time,1594739900.4048429,16
+Polymorphic eruption of pregnancy,start_time,1594740065.3343832,11
+Giant cell arteritis,start_time,1594740248.5839896,39
+Lymphomatoid granulomatosis,start_time,1594740585.8466048,5
+Chronic actinic dermatitis,start_time,1594740660.839464,16
+conjunctival naevi,start_time,1594740850.5945091,0
+conjunctival naevi,end_time,1594740850.5946202,0
+Hailey–Hailey disease,start_time,1594740887.2800982,0
+Hailey–Hailey disease,end_time,1594740887.2802174,0
+IDIOPATHIC (IMMUNOLOGICAL) PHOTODERMATOSES,start_time,1594740926.9482388,0
+IDIOPATHIC (IMMUNOLOGICAL) PHOTODERMATOSES,end_time,1594740926.9483557,0
+Lip pits and sinuses,start_time,1594740966.268091,18
+Arterial leg ulcer,start_time,1594741144.1444893,18
+Infantile acropustulosis,start_time,1594741324.968085,1
+Infantile acropustulosis,end_time,1594741333.8378832,1
+Allergic contact dermatitis,start_time,1594741371.562038,19
+Arsenical keratosis,start_time,1594741576.1484659,15
+Follicular mucinosis,start_time,1594741775.8800256,4
+Follicular mucinosis,end_time,1594741810.2741246,4
+neonatal purpura,start_time,1594741846.9039595,7
+Necrotizing fasciitis,start_time,1594741938.3863544,19
+antiphospholipid antibodylupus anticoagulant syndrome,start_time,1594742109.3161657,0
+antiphospholipid antibodylupus anticoagulant syndrome,end_time,1594742109.3162813,0
+Mastocytosis,start_time,1594742146.378033,60
+Multiple mucosal neuromas,start_time,1594742669.536976,9
+prImary Cutaneous perIpheraL t‐CeLL Lymphoma (unspeCIFIed), ,start_time,1594742772.362918,1
+prImary Cutaneous perIpheraL t‐CeLL Lymphoma (unspeCIFIed), ,end_time,1594742782.1543543,1
+Squamous cell carcinoma,start_time,1594742830.3356137,58
+Drug-induced generalized exfoliative dermatitis,start_time,1594743357.6648636,12
+Dermoid cyst,start_time,1594743499.716611,39
+malignant melanoma,start_time,1594743830.0746062,35
+other dIsorders,start_time,1594744152.7273233,17
+melanoma,start_time,1594744340.4729319,19
+Allergic contact urticaria,start_time,1594744540.5068798,57
+Reactive arthritis,start_time,1594745029.0453625,19
+Follicle centre cell lymphoma,start_time,1594745224.3570337,17
+Hereditary haemorrhagic telangiectasia,start_time,1594745410.9203608,7
+Hereditary haemorrhagic telangiectasia,end_time,1594745464.857993,2
+Dermatoses of the Oral Cavity and Lips ,start_time,1594745502.816421,2
+Chemical burns,start_time,1594745558.4101205,19
+Kaposi sarcoma,start_time,1594745731.8325894,19
+Calcified cutaneous nodules of the heels,start_time,1594745943.7182548,10
+Symmetrical drug‐related intertriginous and flexural exanthem,start_time,1594746054.647182,0
+Symmetrical drug‐related intertriginous and flexural exanthem,end_time,1594746054.6473107,0
+Papular urticaria,start_time,1594746094.4570858,4
+Atopic eczema,start_time,1594746162.4772928,18
+Lichen sclerosus,start_time,1594746352.4976535,59
+Acrocyanosis,start_time,1594746834.489812,19
+Takayasu arteritis,start_time,1594746999.8173182,19
+malakoplakia,start_time,1594747172.5756958,3
+Sebaceous carcinoma,start_time,1594747231.4815946,16
+Psoriasis,start_time,1594747400.8409638,60
+Syndromic cleft palate,start_time,1594748252.1513977,38
+Deep‐vein thrombosis,start_time,1594748568.0879512,1
+Deep‐vein thrombosis,end_time,1594748574.6173718,1
+Cylindroma,start_time,1594748614.3302417,0
+Cylindroma,end_time,1594748614.3303642,0
+allergic vasculitis,start_time,1594748651.1326454,19
+Cutaneous myoepithelioma,start_time,1594748845.9512148,0
+Cutaneous myoepithelioma,end_time,1594748845.9513736,0
+Dyskeratosis congenita,start_time,1594748885.2263432,11
+Subcutaneous fat necrosis of the newborn,start_time,1594749006.339922,10
+Eccrine angiomatous naevus,start_time,1594749151.4504962,0
+Eccrine angiomatous naevus,end_time,1594749151.4506485,0
+Basal cell carcinoma,start_time,1594749192.7033484,39
+subungual hemorrhage,start_time,1594749552.45389,4
+phlebothrombosis,start_time,1594749649.3860836,0
+phlebothrombosis,end_time,1594749649.3863525,0
+Aphthous ulcers,start_time,1594749692.6048684,37
+Mucinous carcinoma,start_time,1594749993.4670165,19
+Anal fistula,start_time,1594750169.5552373,17
+neonatal purpura,start_time,1594750324.2965076,7
+Leiomyoma,start_time,1594750420.454814,39
+Epithelioid haemangioma ,start_time,1594750748.1477625,0
+Epithelioid haemangioma ,end_time,1594750748.1479142,0
+Epidermoid cysts,start_time,1594750787.387829,16
+,start_time,1594750941.365252,0
+,end_time,1594750941.3653877,0
+Steatocystoma multiplex,start_time,1594750980.898259,6
+Down syndrome,start_time,1594751066.7446778,39
+extranodal nKt‐cell lymphoma (nasal type),start_time,1594751384.862607,0
+extranodal nKt‐cell lymphoma (nasal type),end_time,1594751384.8627553,0
+Lichenoid keratosis,start_time,1594751425.1251419,8
+corticosteroid purpura,start_time,1594751565.7976887,17
+Cold panniculitis,start_time,1594751758.9157546,13
+Hereditary benign intraepithelial dyskeratosis,start_time,1594751888.3056543,0
+Hereditary benign intraepithelial dyskeratosis,end_time,1594751888.3058062,0
+phleboedema and mixed lymphovenous disease,start_time,1594751925.6149275,0
+phleboedema and mixed lymphovenous disease,end_time,1594751925.6150475,0
+Sebaceous carcinoma,start_time,1594751961.8661695,16
+halo naevus,start_time,1594752118.7836607,2
+erythrocyanosis,start_time,1594752167.5259326,1
+erythrocyanosis,end_time,1594752172.8544183,0
+Penile haematoma and rupture,start_time,1594752211.33046,1
+Penile haematoma and rupture,end_time,1594752217.6293354,0
+Necrotizing fasciitis,start_time,1594752256.097195,19
+MALFORMATIONS,start_time,1594752444.3300617,39
+Naevus of ota,start_time,1594752755.3211477,0
+Naevus of ota,end_time,1594752755.3212647,0
+Neonatal lupus erythematosus,start_time,1594752792.817747,15
+Lymphomatoid papulosis,start_time,1594752946.093023,9
+Trichilemmal cyst,start_time,1594753050.9816532,2
+Trichilemmal cyst,end_time,1594753063.9061737,0
+mixed leg ulcer,start_time,1594753107.5066516,36
+Sturge–Weber–Krabbe syndrome,start_time,1594753450.5141737,0
+Sturge–Weber–Krabbe syndrome,end_time,1594753450.5143242,0
+allergic vasculitis,start_time,1594753489.7624645,19
+Cleft lippalate,start_time,1594753679.4750748,0
+Cleft lippalate,end_time,1594753679.4751928,0
+stasis purpura,start_time,1594753718.9627314,2
+Neonatal purpura fulminans,start_time,1594753771.2603645,0
+Neonatal purpura fulminans,end_time,1594753771.2605076,0
+Chronic bullous disease of childhood,start_time,1594753808.3471527,18
+Pachyonychia congenita ,start_time,1594753986.741378,0
+Pachyonychia congenita ,end_time,1594753986.7415228,0
+Leprosy,start_time,1594754024.0342472,13
+Pseudolymphoma,start_time,1594754164.7261696,3
+Sneddon syndrome,start_time,1594754228.6799614,39
+Dermoid cyst,start_time,1594754534.9923651,39
+Angiosarcoma,start_time,1594754865.2090027,59
+Chronic bullous disease of childhood,start_time,1594755362.5837433,18
+Eosinophilic granulomatosis with polyangiitis,start_time,1594755551.7442248,19
+Lymphomatoid papulosis,start_time,1594755721.9410748,9
+Lichen planus,start_time,1594755826.3559942,36
+Priapism,start_time,1594756197.1148908,58
+Hand, foot and mouth disease,start_time,1594756666.3147576,18
+Naevi,start_time,1594756846.6571057,6
+Neuromuscular hamartoma,start_time,1594756938.6059072,4
+Epithelioid haemangioendothelioma,start_time,1594757013.903716,1
+Epithelioid haemangioendothelioma,end_time,1594757021.5701182,1
+toxic purpura,start_time,1594757062.1351428,39
+Herpes zoster,start_time,1594757419.0422034,18
+labial melanotic macules,start_time,1594757590.1340163,0
+labial melanotic macules,end_time,1594757590.1341512,0
+Warts,start_time,1594757636.113894,39
+TUMOURS OF MUSCLE,start_time,1594757963.7720888,19
+Sneddon syndrome,start_time,1594758158.0386014,39
+Scalp pruritus ,start_time,1594758463.268964,16
+dermatitis artefacta and mutilation,start_time,1594758669.9006279,0
+dermatitis artefacta and mutilation,end_time,1594758669.9007611,0
+Occupational Dermatology ,start_time,1594758709.6766663,16
+dysproteinaemic purpura,start_time,1594758884.3863342,0
+dysproteinaemic purpura,end_time,1594758884.3865013,0
+Acanthosis nigricans,start_time,1594758920.9031374,15
+Drug‐induced pityriasis rosea,start_time,1594759080.6709878,0
+Drug‐induced pityriasis rosea,end_time,1594759080.6711237,0
+Sinus histiocytosis with massive lymphadenopathy,start_time,1594759118.62042,1
+Sinus histiocytosis with massive lymphadenopathy,end_time,1594759125.3601756,1
+diffuse genuine phlebetasia,start_time,1594759165.3841326,0
+diffuse genuine phlebetasia,end_time,1594759165.384249,0
+primary cutaneous aggressive epidermotropic Cd8+ t‐cell lymphoma,start_time,1594759204.3715637,0
+primary cutaneous aggressive epidermotropic Cd8+ t‐cell lymphoma,end_time,1594759204.3716972,0
+Malignant peripheral nerve sheath tumour,start_time,1594759248.0792522,37
+Follicle centre cell lymphoma,start_time,1594759659.5276237,17
+Keratoacanthoma,start_time,1594759859.0018156,8
+toxic purpura,start_time,1594759962.8117898,39
+White sponge naevus,start_time,1594760324.6501439,0
+White sponge naevus,end_time,1594760324.6502645,0
+extranodal nKt‐cell lymphoma (nasal type),start_time,1594760362.4332333,0
+extranodal nKt‐cell lymphoma (nasal type),end_time,1594760362.4333699,0
+Venous leg ulcer,start_time,1594760402.2143314,18
+Paget disease of the nipple,start_time,1594760621.5527482,17
+Molluscum contagiosum,start_time,1594760797.979543,15
+Eccrine epithelioma,start_time,1594760978.3487635,0
+Eccrine epithelioma,end_time,1594760978.3489063,0
+paintful bruising syndrome,start_time,1594761018.1556604,18
+Preorbital and orbital cellulitis,start_time,1594761225.6481717,0
+Preorbital and orbital cellulitis,end_time,1594761225.6483371,0
+Porokeratosis,start_time,1594761263.5151172,17
+Mondor disease,start_time,1594761451.915135,8
+malakoplakia,start_time,1594761544.9418085,3
+Perianal dermatitis,start_time,1594761599.7605915,9
+paintful bruising syndrome,start_time,1594761723.1164274,18
+Eosinophilic granulomatosis with polyangiitis,start_time,1594761907.5333464,19
+yellow‐nail syndrome,start_time,1594762091.6524212,0
+yellow‐nail syndrome,end_time,1594762091.6525402,0
+Lymphocele, seroma and lymph  fistula,start_time,1594762131.5790887,2
+Leiomyoma,start_time,1594762196.8467314,39
+Lipschutz ulceration,start_time,1594762543.6186783,0
+Lipschutz ulceration,end_time,1594762543.6188383,0
+LYMPHATIC TUMOURS,start_time,1594762582.2777326,60
+Disorders associated with venous malformations,start_time,1594763164.0442562,17
+Disorders associated with venous malformations,end_time,1594763309.9157133,5
+diffuse large b‐cell lymphoma,start_time,1594763348.586199,6
+Carcinoma of the scrotum,start_time,1594763439.2317924,18
+Wiskott–Aldrich syndrome,start_time,1594763621.9481068,0
+Wiskott–Aldrich syndrome,end_time,1594763621.9482656,0
+Fissured tongue,start_time,1594763661.5112169,15
+Naevi,start_time,1594763839.1515415,6
+Simple lentigo,start_time,1594763937.9762852,1
+Simple lentigo,end_time,1594763945.0198164,0
+Generalized eruptive  histiocytosis,start_time,1594763983.6563935,0
+Generalized eruptive  histiocytosis,end_time,1594763983.6565087,0
+Necrobiotic xanthogranuloma,start_time,1594764022.6218119,16
+Mastocytosis,start_time,1594764180.199497,60
+Cutaneous horn,start_time,1594764701.0971024,18
+Large plaque parapsoriasis,start_time,1594764903.0061324,5
+Large plaque parapsoriasis,end_time,1594764961.3237498,5
+Recurrent mouth ulcers,start_time,1594765000.1419988,18
+Arterial leg ulcer,start_time,1594765191.1914907,18
+mucoid cysts,start_time,1594765321.7370827,11
+eosinophilic cellulitis,start_time,1594765451.8673673,17
+Spider telangiectases,start_time,1594765645.367647,2
+Spider telangiectases,end_time,1594765681.3112388,2
+Lymphangioma,start_time,1594765721.7179685,14
+Pseudoepitheliomatous hyperplasia,start_time,1594765889.8630059,0
+Pseudoepitheliomatous hyperplasia,end_time,1594765889.8631327,0
+primary lymphoedema,start_time,1594765938.772497,45
+Arsenical keratosis,start_time,1594766371.7792914,15
+Leiomyoma,start_time,1594766585.0703008,39
+Urticaria,start_time,1594766938.795506,39
+Crohn disease,start_time,1594767284.1730328,37
+contact dermatitis,start_time,1594767595.1838164,19
+Naevus of ito,start_time,1594767810.8177185,0
+Naevus of ito,end_time,1594767810.8178453,0
+Verrucous carcinomagiant condyloma Buschke–Löwenstein tumour,start_time,1594767847.00278,0
+Verrucous carcinomagiant condyloma Buschke–Löwenstein tumour,end_time,1594767847.002898,0
+Vulvo‐vaginal adenosis,start_time,1594767884.8006546,0
+Vulvo‐vaginal adenosis,end_time,1594767884.8008013,0
+Venous leg ulcer,start_time,1594767919.8488085,18
+Lipogranuloma,start_time,1594768142.2006292,0
+Lipogranuloma,end_time,1594768142.2007666,0
+Black heel and palm,start_time,1594768179.532311,18
+mucoid cysts,start_time,1594768389.276933,11
+Drug-induced generalized exfoliative dermatitis,start_time,1594768517.8132029,12
+Napkin (diaper), peristomal and perianal dermatitis,start_time,1594768652.46587,0
+Napkin (diaper), peristomal and perianal dermatitis,end_time,1594768652.465991,0
+Venous thrombosis,start_time,1594768689.2968311,60
+Eosinophilic pustular folliculitis,start_time,1594769167.8859813,0
+Eosinophilic pustular folliculitis,end_time,1594769167.8861082,0
+Perianal dermatitis,start_time,1594769208.6521611,9
+fibreglass dermatitis,start_time,1594769333.3979766,0
+fibreglass dermatitis,end_time,1594769333.3980947,0
+lentigo maligna melanoma in situ,start_time,1594769370.6207795,4
+Malignant fibrous histiocytoma,start_time,1594769442.6178343,17
+Lymphomatoid papulosis,start_time,1594769631.938498,9
+hypothenar hammer syndrome,start_time,1594769741.9867687,0
+hypothenar hammer syndrome,end_time,1594769741.9869025,0
+Fetal varicella syndrome,start_time,1594769779.505743,10
+Skin tags,start_time,1594769928.9313529,18
+bowenoid papulosis,start_time,1594770107.3190851,9
+Melanoma ,start_time,1594770222.5753613,19
+Occupational Dermatology ,start_time,1594770473.8887548,16
+dermatological non‐disease, dysaesthesia and chronic pain syndromes,start_time,1594770646.858982,0
+dermatological non‐disease, dysaesthesia and chronic pain syndromes,end_time,1594770646.8591223,0
+Sebaceous carcinoma,start_time,1594770683.7623305,16
+Centrofacial lentiginosis syndrome,start_time,1594770850.5932395,0
+Centrofacial lentiginosis syndrome,end_time,1594770850.5933764,0
+Anal abscess,start_time,1594770888.6456416,19
+Blue rubber–bleb naevus syndrome,start_time,1594771063.8665478,0
+Blue rubber–bleb naevus syndrome,end_time,1594771063.866712,0
+disseminated intravascular coagulation,start_time,1594771103.8040252,19
+Keratoacanthoma,start_time,1594771296.079301,0
+Keratoacanthoma,end_time,1594771296.079415,0
+Aphthous ulcers,start_time,1594771339.5606024,37
+mycosis fungoides,start_time,1594771680.115073,17
+Leiomyoma,start_time,1594771888.2234917,39
+Fifth disease,start_time,1594772231.745632,19
+Atopy and atopic eye disease,start_time,1594772428.8524015,8
+Angio‐oedema (hereditary) ,start_time,1594772527.5894122,1
+Angio‐oedema (hereditary) ,end_time,1594772533.4718633,0
+VENOUS DISORDERS,start_time,1594772580.3076138,39
+antiphospholipid antibodylupus anticoagulant syndrome,start_time,1594772918.8442621,0
+antiphospholipid antibodylupus anticoagulant syndrome,end_time,1594772918.8443842,0
+lentigo maligna melanoma in situ,start_time,1594772956.7209918,4
+Lymphangiomatosis, lymphangioleiomyomatosis and non‐malignant lymphatic tumours,start_time,1594773027.53791,0
+Lymphangiomatosis, lymphangioleiomyomatosis and non‐malignant lymphatic tumours,end_time,1594773027.5380285,0
+Erythema Nodosum,start_time,1594773065.3202846,60
+Neonatal candidiasis,start_time,1594773402.3725727,4
+Miliaria,start_time,1594773476.1480453,6
+True histiocytic lymphoma,start_time,1594773556.116969,8
+True histiocytic lymphoma,end_time,1594773615.7709088,2
+Herpes simplex,start_time,1594773655.4219139,19
+disseminated intravascular coagulation,start_time,1594773845.83679,19
+amelanotic nevus,start_time,1594774039.237622,0
+amelanotic nevus,end_time,1594774039.2377367,0
+Comedo naevus,start_time,1594774077.1628191,0
+Comedo naevus,end_time,1594774077.1629431,0
+Cutaneous epithelioid angiomatous nodule,start_time,1594774114.7949173,0
+Cutaneous epithelioid angiomatous nodule,end_time,1594774114.7950413,0
+Peyronie disease,start_time,1594774160.824523,59
+Lymphangioma,start_time,1594774681.4247825,14
+Cowden syndrome,start_time,1594774849.2257159,38
+Fibroma of tendon sheath,start_time,1594775168.0896811,5
+LYMPHATIC TUMOURS,start_time,1594775243.6825047,60
+Post‐ionizing radiation keratosis,start_time,1594775832.1997716,0
+Post‐ionizing radiation keratosis,end_time,1594775832.1999066,0
+Venous thrombosis,start_time,1594775870.403345,60
+Parapsoriasis,start_time,1594776375.8616369,10
+Erythema Nodosum,start_time,1594776548.642057,40
+Vitiligo,start_time,1594776958.0750577,16
+Miliaria,start_time,1594777119.6945949,6
+IgA vasculitis,start_time,1594777205.1932096,19
+Haemosiderotic fibrolipomatous tumour,start_time,1594777387.5596423,0
+Haemosiderotic fibrolipomatous tumour,end_time,1594777387.5597591,0
+Felty syndrome,start_time,1594777427.9273465,18
+Volatileairborne irritant contact  dermatitis,start_time,1594777597.0539978,0
+Volatileairborne irritant contact  dermatitis,end_time,1594777597.0541415,0
+Intrahepatic cholestasis of pregnancy,start_time,1594777634.8459377,7
+Epithelial sheath neuroma,start_time,1594777724.8505306,1
+Epithelial sheath neuroma,end_time,1594777730.2842722,0
+Multicentric reticulohistiocytosis,start_time,1594777769.5091035,5
+Chronic bullous disease of childhood,start_time,1594777853.8470316,18
+marginal zone lymphoma,start_time,1594778038.7122447,19
+Milium,start_time,1594778215.7688315,0
+Milium,end_time,1594778215.7689645,0
+Lymphangiectasia,start_time,1594778251.9820611,19
+contact dermatitis,start_time,1594778451.898022,19
+Dermoid cysts,start_time,1594778683.4462018,39
+NAEVOID BASAL CELL CARCINOMA SYNDROME,start_time,1594779009.4084935,0
+NAEVOID BASAL CELL CARCINOMA SYNDROME,end_time,1594779009.408635,0
+Carcinoma of the penis,start_time,1594779042.6440387,40
+Skin tags,start_time,1594779259.5555778,18
+Bowen disease of the penis,start_time,1594779437.6724005,5
+Fissured tongue,start_time,1594779519.4465785,15
+Atopic eczema,start_time,1594779689.4111223,18
+Cutaneous endometriosis,start_time,1594779888.24535,37
+Tumours of Skin Appendages ,start_time,1594780257.7752368,9
+Dermatosis papulosa nigra,start_time,1594780373.2868245,1
+Dermatosis papulosa nigra,end_time,1594780379.666176,0
+exanthema subitum,start_time,1594780416.825477,0
+exanthema subitum,end_time,1594780416.8256116,0
+clavus,start_time,1594780455.7387068,0
+clavus,end_time,1594780455.7388802,0
+disseminated intravascular coagulation,start_time,1594780495.3968241,19
+Pseudoepitheliomatous micaceous and keratotic balanitis,start_time,1594780693.660582,0
+Pseudoepitheliomatous micaceous and keratotic balanitis,end_time,1594780693.6607096,0
+extramammary Paget disease,start_time,1594780733.4050157,1
+extramammary Paget disease,end_time,1594780741.060214,1
+corticosteroid-dependent dermitis,start_time,1594780783.3721573,0
+corticosteroid-dependent dermitis,end_time,1594780783.372282,0
+Epidermoid cysts,start_time,1594780823.288245,16
+cockade naevus,start_time,1594780976.058065,0
+cockade naevus,end_time,1594780976.0582056,0
+Molluscum contagiosum,start_time,1594781016.0162055,15
+Phototoxic contact dermatitis,start_time,1594781200.5087519,3
+Phototoxic contact dermatitis,end_time,1594781225.7561686,3
+easy bruising syndrome,start_time,1594781268.8781548,39
+Venous malformations,start_time,1594781618.8599296,19
+Leiomyosarcoma (dermal and subcutaneous), ,start_time,1594781804.7455397,0
+Leiomyosarcoma (dermal and subcutaneous), ,end_time,1594781804.7457106,0
+Perifollicular fibroma,start_time,1594781845.1521757,0
+Perifollicular fibroma,end_time,1594781845.1523092,0
+Malignant atrophic papulosis,start_time,1594781882.7039979,0
+Malignant atrophic papulosis,end_time,1594781882.7041214,0
+Stucco keratosis,start_time,1594781918.5675282,2
+Stucco keratosis,end_time,1594781947.4602475,2
+hand–arm vibration syndrome,start_time,1594781987.011901,0
+hand–arm vibration syndrome,end_time,1594781987.01204,0
+Penile acne,start_time,1594782026.4901273,11
+Neonatal candidiasis,start_time,1594782168.1230812,4
+Down syndrome,start_time,1594782246.7487245,39
+contact dermatitis,start_time,1594782573.6165915,19
+Leukaemia cutis,start_time,1594782801.349577,6
+Staphylococcal cellulitis,start_time,1594782891.1188612,5
+Staphylococcal cellulitis,end_time,1594782917.2429433,0
+Parakeratosis pustulosa,start_time,1594782963.7363963,0
+Parakeratosis pustulosa,end_time,1594782963.7365148,0
+foreign-body reaction,start_time,1594783002.5290852,19
+Intravascular large b‐cell lymphoma,start_time,1594783180.2617393,0
+Intravascular large b‐cell lymphoma,end_time,1594783180.261877,0
+friction blisters,start_time,1594783229.4659576,18
+Atypical genital naevi,start_time,1594783398.9186292,0
+Atypical genital naevi,end_time,1594783398.918758,0
+Immune defects,start_time,1594783439.492018,18
+Candidosis,start_time,1594783624.5056071,6
+Human immunodeficiency virus ,start_time,1594783728.109552,17
+prImary Cutaneous b‐CeLL Lymphomas,start_time,1594783904.7306316,3
+prImary Cutaneous b‐CeLL Lymphomas,end_time,1594783928.2054965,3
+haemangioma,start_time,1594783973.2448473,31
+IgA vasculitis,start_time,1594784063.172603,19
+Neonatal candidiasis,start_time,1594784255.9796927,4
+Liposarcoma,start_time,1594784322.3775954,40
+Nevus flammeus,start_time,1594784659.3690782,5
+Naevi,start_time,1594784746.7266564,6
+Syringocystadenoma papilliferum,start_time,1594784837.2777925,0
+Syringocystadenoma papilliferum,end_time,1594784837.277919,0
+recurrent melanocytic naevi,start_time,1594784877.9025295,0
+recurrent melanocytic naevi,end_time,1594784877.9026828,0
+Other subepithelial disorders and conjunctivitis,start_time,1594784915.710578,3
+swollen breast and breast lymphoedema,start_time,1594784974.0167027,26
+Sebaceous carcinoma,start_time,1594785247.5418994,16
+Acne of chemical origin,start_time,1594785414.6348171,12
+Syphilis,start_time,1594785559.7951005,58
+Eosinophilic granulomatosis with polyangiitis,start_time,1594786158.0873816,19
+Rhabdomyoma,start_time,1594786353.8302824,19
+TUMOURS OF UNCERTAIN HISTOGENESIS,start_time,1594786522.3297312,0
+TUMOURS OF UNCERTAIN HISTOGENESIS,end_time,1594786522.3299077,0
+Pityriasis alba,start_time,1594786560.0622723,8
+Arsenical keratosis,start_time,1594786667.8419666,15
+Milia,start_time,1594786895.3864007,19
+adult t‐cell leukaemia–lymphoma  (htLv‐1 associated), ,start_time,1594787090.8256266,0
+adult t‐cell leukaemia–lymphoma  (htLv‐1 associated), ,end_time,1594787090.825765,0
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,start_time,1594787130.6514082,0
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,end_time,1594787130.6515892,0
+Napkin dermatitis,start_time,1594787170.7993245,16
+Calcified cutaneous nodules of the heels,start_time,1594787358.2942333,10
+mrSa,start_time,1594787487.3491564,34
+PUVA lentigo,start_time,1594787774.388296,1
+PUVA lentigo,end_time,1594787782.5859587,1
+Porokeratosis,start_time,1594787821.962989,17
+Histiocytic sarcoma,start_time,1594788008.665302,26
+Tumours of Skin Appendages ,start_time,1594788233.1126807,9
+Solitary neurofibroma,start_time,1594788362.5544689,20
+Necrobiotic xanthogranuloma,start_time,1594788582.4504707,16
+Eccrine hidrocystoma,start_time,1594788732.1540976,0
+Eccrine hidrocystoma,end_time,1594788732.154233,0
+Lichen sclerosus,start_time,1594788782.3017237,59
+Congenital rubella,start_time,1594788824.263933,31
+Atypical lipomatous tumour,start_time,1594789093.0729656,0
+Atypical lipomatous tumour,end_time,1594789093.0731008,0
+Clear cell sarcoma,start_time,1594789131.5890844,19
+Disseminated superfi cial actinic porokeratosis,start_time,1594789303.638477,0
+Disseminated superfi cial actinic porokeratosis,end_time,1594789303.6386206,0
+Perineurioma,start_time,1594789342.5694501,1
+Perineurioma,end_time,1594789348.7794082,0
+Van der Woude syndrome,start_time,1594789388.918631,4
+Van der Woude syndrome,end_time,1594789414.148185,1
+LESIONS WITH UNCERTAIN OR UNPREDICTABLE MALIGNANT POTENTIAL,start_time,1594789460.3863409,34
+Lymphatic malformation and lymphangioma circumscriptum,start_time,1594789823.8855689,0
+Lymphatic malformation and lymphangioma circumscriptum,end_time,1594789823.8857358,0
+Cutaneous Candida infection,start_time,1594789860.680307,13
+Penile melanosis,start_time,1594790019.4457564,0
+Penile melanosis,end_time,1594790019.4458826,0
+Cherry angiomas,start_time,1594790059.9421647,18
+Digital papillary adenocarcinoma,start_time,1594790252.9895608,17
+Polymorphic eruption of pregnancy,start_time,1594790440.1054657,11
+Nodular vasculitis,start_time,1594790615.6144683,19
+Infantile acne,start_time,1594790823.7920287,17
+clinically atypical naevi,start_time,1594791007.3435905,1
+clinically atypical naevi,end_time,1594791014.397661,0
+Lymphoepithelioma‐like carcinoma,start_time,1594791051.6087341,0
+Lymphoepithelioma‐like carcinoma,end_time,1594791051.6088521,0
+Penile acne,start_time,1594791091.0860748,11
+Kawasaki disease,start_time,1594791238.6103125,59
+PERIPHERAL NEUROECTODERMAL TUMOURS,start_time,1594791810.4239445,2
+Diffuse lymphangiomatosis,start_time,1594791864.6777582,0
+Diffuse lymphangiomatosis,end_time,1594791864.6779294,0
+Eosinophilic ulcer of the oral mucosa,start_time,1594791903.8428133,18
+Lymphocele, seroma and lymph  fistula,start_time,1594792135.0627656,2
+Haemangioma,start_time,1594792201.677251,31
+Henoch-Schonlein purpura,start_time,1594792502.7131763,58
+Other subepithelial disorders and conjunctivitis,start_time,1594792985.590163,3
+Lichenoid drug eruptions,start_time,1594793052.692986,6
+Scrotal calcinosis,start_time,1594793145.6849444,0
+Scrotal calcinosis,end_time,1594793145.6850698,0
+Kindler syndrome,start_time,1594793182.2219062,3
+Eosinophilic granulomatosis with polyangiitis,start_time,1594793249.3893344,19
+Fissured tongue,start_time,1594793432.1028013,15
+Immune defects,start_time,1594793609.2317412,18
+Toxic erythema of the newborn,start_time,1594793775.2784846,5
+Candidosis,start_time,1594793861.6165743,6
+Leprosy,start_time,1594793962.811328,13
+Pilar sheath acanthoma,start_time,1594794114.2164764,0
+Pilar sheath acanthoma,end_time,1594794114.2166448,0
+Human immunodeficiency virus infection,start_time,1594794154.3138158,17
+TUMOURS OF FAT CELLS,start_time,1594794333.365588,39
+Fordyce spots,start_time,1594794702.5458272,11
+Tuberculosis,start_time,1594794835.3713984,19
+thrombophlebitis,start_time,1594795029.454558,39
+Neonatal pemphigus vulgaris,start_time,1594795351.4219275,0
+Neonatal pemphigus vulgaris,end_time,1594795351.422049,0
+Seborrhoeic eczema,start_time,1594795389.5001304,10
+Seborrhoeic eczema,end_time,1594795477.475515,10
+Naevi,start_time,1594795516.8145163,6
+Eccrine dermal duct tumour,start_time,1594795610.6389165,0
+Eccrine dermal duct tumour,end_time,1594795610.6390884,0
+Fibrofolliculoma,start_time,1594795648.9831712,7
+Calcified cutaneous nodules of the heels,start_time,1594795740.477507,10
+Calcifying fibrous tumour,start_time,1594795875.4449592,11
+Verrucous carcinoma,start_time,1594796011.602998,4
+Reactive angioendotheliomatosis,start_time,1594796086.4385467,0
+Reactive angioendotheliomatosis,end_time,1594796086.438667,0
+Pseudoxanthoma elasticum,start_time,1594796126.642067,17
+Pseudoxanthoma elasticum,end_time,1594796242.322368,5
+Microscopic polyangiitis,start_time,1594796288.0657175,49
+Mucinous carcinoma,start_time,1594796745.0495548,19
+Morton neuroma,start_time,1594796943.8339643,18
+PUSTULAR CONDITIONS OF THE SCALP ,start_time,1594797125.9379597,17
+diffuse large b‐cell lymphoma,start_time,1594797384.4809043,6
+Perniosis,start_time,1594797478.2694619,4
+Papillary haemangioma,start_time,1594797542.9360986,0
+Papillary haemangioma,end_time,1594797542.936219,0
+Mastocytosis,start_time,1594797581.7272239,60
+Calcified cutaneous nodules of the heels,start_time,1594798101.3609989,10
+Frostbite,start_time,1594798224.1383367,16
+Blue naevus and variants,start_time,1594798302.7673168,0
+Blue naevus and variants,end_time,1594798302.7674456,0
+Lingual tonsil,start_time,1594798348.6363292,19
+Multiple mucosal neuroma syndrome,start_time,1594798561.4638364,7
+Cicatrizing conjunctivitis associated with immunobullous disorders,start_time,1594798654.684131,0
+Cicatrizing conjunctivitis associated with immunobullous disorders,end_time,1594798654.684251,0
+Dermatoses of the Oral Cavity and Lips ,start_time,1594798690.3718867,2
+Fissured tongue,start_time,1594798743.3408298,15
+Kaposi Sarcoma ,start_time,1594798924.7580476,19
+Leiomyoma,start_time,1594799148.439731,39
+VASCULAR TUMOURS,start_time,1594799529.1140404,18
+Angiosarcoma,start_time,1594799728.7351294,59
+Drug reaction with eosinophilia and systemic symptoms,start_time,1594800262.7221882,19
+Malignant histiocytosis,start_time,1594800471.3516464,14
+Spitz naevus,start_time,1594800638.4357703,0
+Spitz naevus,end_time,1594800638.4359322,0
+Spiradenoma,start_time,1594800675.7985783,0
+Spiradenoma,end_time,1594800675.7987022,0
+Pressure injury and pressure ulcer,start_time,1594800714.7819052,19
+Melanocytic naevi of the genital area,start_time,1594800762.7569137,0
+Melanocytic naevi of the genital area,end_time,1594800762.7570539,0
+contact dermatitis,start_time,1594800801.4311283,19
+Congenital rubella,start_time,1594801038.4533806,31
+HIV infection,start_time,1594801329.2515037,19
+Inherited patterned lentiginosis in black people,start_time,1594801548.4489074,0
+Inherited patterned lentiginosis in black people,end_time,1594801548.4490647,0
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,start_time,1594801587.0595355,0
+primary cutaneous Cd4+ smallmedium‐sized pleomorphic t‐cell lymphoma,end_time,1594801587.0596793,0
+melanoma,start_time,1594801627.0799272,19
+Generalized essential telangiectasia,start_time,1594801847.0523958,37
+Drug eruption,start_time,1594802241.5631473,16
+Necrotizing fasciitis,start_time,1594802434.026538,19
+Pseudocyst of the ear,start_time,1594802629.639089,8
+Solitary venous malformations,start_time,1594802736.4417145,6
+Infantile gluteal granuloma,start_time,1594802842.1565702,0
+Infantile gluteal granuloma,end_time,1594802842.1567008,0
+Human immunodeficiency virus infection,start_time,1594802878.564151,17
+Parkes Weber syndrome,start_time,1594803021.5101097,19
+Linear morphoea,start_time,1594803244.7332633,10
+Other subepithelial disorders and conjunctivitis,start_time,1594803326.086355,3
+Lichen simplex,start_time,1594803392.019727,15
+Digital mucous cyst,start_time,1594803566.0874653,60
+Digital mucous cyst,end_time,1594804043.570203,17
+purpura simplex,start_time,1594804081.2278945,6
+Behçet disease,start_time,1594804179.107815,2
+Pressure injury and pressure ulcer,start_time,1594804233.2948432,19
+Other subepithelial disorders and conjunctivitis,start_time,1594804428.5093186,3
+Pigmented neuroectodermal tumour of infancy,start_time,1594804489.3139136,1
+Pigmented neuroectodermal tumour of infancy,end_time,1594804495.2511733,0
+Vulval melanoma,start_time,1594804534.8879142,3
+capillary hemangioma,start_time,1594804593.9322052,18
+Purpura ,start_time,1594804764.2749138,60
+Hobnail haemangioma,start_time,1594805339.449979,0
+Hobnail haemangioma,end_time,1594805339.4501033,0
+Von Recklinghausen neurofibromatosis,start_time,1594805386.597947,38
+soft‐tissue Tumours and Tumour‐like Conditions ,start_time,1594805777.8893657,0
+soft‐tissue Tumours and Tumour‐like Conditions ,end_time,1594805777.8894925,0
+PUSTULAR CONDITIONS OF THE SCALP ,start_time,1594805819.196974,17
+Lymphoedema due to immobility,start_time,1594806075.6405294,1
+Lymphoedema due to immobility,end_time,1594806082.4437804,0
+Superficial venous thrombosis,start_time,1594806125.6297114,38
+Anal fistula,start_time,1594806528.404608,17
+Dermatoses of Pregnancy ,start_time,1594806708.7684867,4
+Dermatoses of Pregnancy ,end_time,1594806743.384626,4
+Morton neuroma,start_time,1594806784.4743378,18
+disseminated intravascular coagulation,start_time,1594806981.4959998,19
+Vulva Pruritus,start_time,1594807179.5100243,7
+Lipodermatosclerosis (chronic cellulitis),start_time,1594807274.278239,1
+Lipodermatosclerosis (chronic cellulitis),end_time,1594807282.59554,1
+pseudo condyloma,start_time,1594807319.7979195,0
+pseudo condyloma,end_time,1594807319.7980783,0
+Schwannoma,start_time,1594807356.4843483,60
+Congenital haemangiomas,start_time,1594807979.4741006,0
+Congenital haemangiomas,end_time,1594807979.474258,0
+Arsenical keratosis,start_time,1594808018.9611948,15
+Papular urticaria,start_time,1594808229.8299656,4
+Papillary intralymphatic angioendothelioma,start_time,1594808301.2054186,0
+Papillary intralymphatic angioendothelioma,end_time,1594808301.205542,0
+Solitary circumscribed neuroma,start_time,1594808340.4275467,0
+Solitary circumscribed neuroma,end_time,1594808340.4276683,0
+subungual hemorrhage,start_time,1594808378.0554073,4
+thrombocythemic purpura,start_time,1594808461.877913,0
+thrombocythemic purpura,end_time,1594808461.878032,0
+Wegner's granulomatosis,start_time,1594808504.3005686,24
+Dermatofibrosarcoma protuberans,start_time,1594808757.7769191,16
+Leukoedema,start_time,1594808929.026683,0
+Leukoedema,end_time,1594808929.026857,0
+TUMOURS OF MUSCLE,start_time,1594808967.620535,19
+Sebaceous carcinoma,start_time,1594809185.6322496,16
+paintful bruising syndrome,start_time,1594809366.374876,18
+Cleft lippalate,start_time,1594809589.7098365,0
+Cleft lippalate,end_time,1594809589.7102568,0
+purpura simplex,start_time,1594809627.9740884,6
+deep fungal infections,start_time,1594809727.440553,16
+VENOUS DISORDERS,start_time,1594809917.8576007,39
+Lichen planus,start_time,1594810291.9838507,36
+Lymphomatoid granulomatosis,start_time,1594810464.0857384,5
+Purpura ,start_time,1594810537.5838325,60
+TUMOURS OF PERIVASCULAR CELLS,start_time,1594811078.1885614,10
+Eosinophilic ulcer of the oral mucosa,start_time,1594811205.7443287,18
+Blistering distal dactylitis,start_time,1594811446.694271,4
+leukoplakia,start_time,1594811551.47845,35
+Chronic, venous and drug‐induced  oedema,start_time,1594811904.028867,0
+Chronic, venous and drug‐induced  oedema,end_time,1594811904.0290208,0
+Granuloma faciale,start_time,1594811945.8542347,18
+Dowling–Degos disease,start_time,1594812154.8717601,0
+Dowling–Degos disease,end_time,1594812154.871891,0
+Drug‐induced erythema  nodosum,start_time,1594812192.077919,0
+Drug‐induced erythema  nodosum,end_time,1594812192.0780709,0
+Fordyce spots,start_time,1594812229.290076,11
+De Lange syndrome,start_time,1594812361.051574,19
+Symplastic haemangioma,start_time,1594812554.7093065,0
+Symplastic haemangioma,end_time,1594812554.7094195,0
+foreign-body reaction,start_time,1594812595.2832315,19
+Lipoma,start_time,1594812786.473253,36
+Purpura ,start_time,1594812936.4914424,79
+Multiple mucosal neuromas,start_time,1594813637.1021693,9
+Cutaneous manifestations of hodgkin disease,start_time,1594813744.0392299,13
+Desmoplastic trichoepithelioma,start_time,1594813934.961993,0
+Desmoplastic trichoepithelioma,end_time,1594813934.9621918,0
+Fixed drug eruption,start_time,1594813972.8062804,18
+Haemangioma,start_time,1594814194.8140128,31
+Fordyce spots,start_time,1594814502.408721,11
+LESIONS WITH UNCERTAIN OR UNPREDICTABLE MALIGNANT POTENTIAL,start_time,1594814638.0961185,34
+Juvenile xanthogranuloma,start_time,1594814988.9665127,19
+recurrent cellulitis (erysipelas),start_time,1594815191.2048395,0
+recurrent cellulitis (erysipelas),end_time,1594815191.2049627,0
+fournier gangrene,start_time,1594815228.0484204,3
+fournier gangrene,end_time,1594815253.3988905,3
+Hordeolum,start_time,1594815293.4545078,4
+Hordeolum,end_time,1594815338.7388797,4
+Severe Cutaneous Adverse Reactions to Drugs,start_time,1594815379.5683439,34
+Mucous membrane pemphigoid,start_time,1594815713.6972184,9
+Solitary neurofibroma,start_time,1594815832.8643165,20
+Spindle cell and pleomorphic lipoma,start_time,1594816040.0011723,5
+Spindle cell and pleomorphic lipoma,end_time,1594816068.0899472,0
+Tinea cruris,start_time,1594816105.445934,4
+Tinea cruris,end_time,1594816141.2956011,4
+Behçet disease,start_time,1594816178.4297435,2
+malakoplakia,start_time,1594816232.1061022,3
+Inclusion body (digital) fi bromatosis,start_time,1594816292.1194658,0
+Inclusion body (digital) fi bromatosis,end_time,1594816292.1195953,0
+Vulval melanoma,start_time,1594816328.5389812,3
+Chemical burns,start_time,1594816387.685636,19
+Maffucci syndrome,start_time,1594816600.8587022,8
+Trichilemmal carcinoma,start_time,1594816709.5675845,0
+Trichilemmal carcinoma,end_time,1594816709.567706,0
+Dermatoses of the External Ear ,start_time,1594816748.2754245,3
+Squamous Cell Carcinoma and its Precursors ,start_time,1594816811.0463266,19
+Von Recklinghausen neurofibromatosis,start_time,1594816945.4539902,38
+Cutaneous lymphadenoma,start_time,1594817316.0075936,0
+Cutaneous lymphadenoma,end_time,1594817316.0077167,0
+Tuberous sclerosis,start_time,1594817358.820983,38
+mixed leg ulcer,start_time,1594817696.102839,36
+leukoplakia,start_time,1594817776.1993542,35
+Miliaria,start_time,1594818096.8767257,6
+Sweet syndrome,start_time,1594818189.0652814,59
+capillary hemangioma,start_time,1594818688.561835,18
+Haemorrhoids,start_time,1594818868.6171374,17
+purpura due to raised intravascular pressure,start_time,1594819042.3186927,0
+purpura due to raised intravascular pressure,end_time,1594819042.3188245,0
+Venous leg ulcer,start_time,1594819082.1124392,18
+yaws,start_time,1594819313.5311048,19
+Candidal vulvo‐vaginitis,start_time,1594819512.2693114,3
+Candidal vulvo‐vaginitis,end_time,1594819528.6044033,0
+Linear morphoea,start_time,1594819565.848205,10
+Hidradenoma papilliferum,start_time,1594819688.7044938,0
+Hidradenoma papilliferum,end_time,1594819688.7046342,0
+Fissured tongue,start_time,1594819726.6034245,15
+lentigo maligna melanoma in situ,start_time,1594819829.8564498,4
+Epidermolysis bullosa,start_time,1594819899.9538558,16
+Fifth disease,start_time,1594820070.2202587,19
+mucoid cysts,start_time,1594820263.534352,11
+Folliculitis and furunculosis,start_time,1594820388.33162,1
+Folliculitis and furunculosis,end_time,1594820395.322493,0
+easy bruising syndrome,start_time,1594820439.9352107,39
+Neonatal lupus erythematosus,start_time,1594820781.9332259,15
+Occupational allergic contact dermatitis,start_time,1594820937.3756936,18
+Immune defects,start_time,1594821142.818027,18
+Reticulohistiocytoma,start_time,1594821322.4019156,0
+Reticulohistiocytoma,end_time,1594821322.4020605,0
+Bowen disease,start_time,1594821363.1069543,36
+Stevens–Johnson syndrometoxic epidermal necrolysis,start_time,1594821682.8115125,0
+Stevens–Johnson syndrometoxic epidermal necrolysis,end_time,1594821682.8116364,0
+Drug-induced generalized exfoliative dermatitis,start_time,1594821720.2467403,12
+pretibial myxoedema,start_time,1594821865.0875018,2
+Schwannoma,start_time,1594821945.6864777,159
+Vitiligo,start_time,1594823270.5519178,16
+Lentigines,start_time,1594823442.3557174,11
+Linear morphoea,start_time,1594823584.0823653,10
+thrombotic thrombocytopenic purpura,start_time,1594823656.9385674,18
+Congenital syphilis,start_time,1594823829.4782376,14
+Non‐syphilitic spirochaetal ulcerative balanoposthitis,start_time,1594823965.5931554,0
+Non‐syphilitic spirochaetal ulcerative balanoposthitis,end_time,1594823965.5932915,0
+Trichodiscoma,start_time,1594824005.3951473,1
+Trichodiscoma,end_time,1594824012.263516,1
+complications of tattoos,start_time,1594824052.5215552,19
+Gorlin syndrome,start_time,1594824258.2017038,18
+Pemphigoid gestationis,start_time,1594824419.1865757,1
+Pemphigoid gestationis,end_time,1594824429.3097963,1
+Lymphoedema as a result of amniotic band constriction,start_time,1594824467.6632078,0
+Lymphoedema as a result of amniotic band constriction,end_time,1594824467.6633532,0
+pretibial myxoedema,start_time,1594824506.4698749,2
+Cutaneous Lymphomas ,start_time,1594824563.4612827,18
+Recurrent cutaneous necrotizing eosinophilic vasculitis,start_time,1594824754.3078282,8
+Clouston syndrome,start_time,1594824873.4008942,0
+Clouston syndrome,end_time,1594824873.4010198,0
+Bartholin’s cyst,start_time,1594824910.9690347,18
+Acrocyanosis,start_time,1594825069.0065463,19
+Eruptive vellus hair cyst,start_time,1594825236.927754,0
+Eruptive vellus hair cyst,end_time,1594825236.9279342,0
+Thromboangiitis obliterans,start_time,1594825277.1327734,5
+acrocyanosis,start_time,1594825355.268332,19
+Venous lakes,start_time,1594825512.2481236,19
+Pseudolymphoma,start_time,1594825690.8550375,3
+contact dermatitis,start_time,1594825748.9918113,19
+Haemorrhoids,start_time,1594825976.6065013,17
+Kindler syndrome,start_time,1594826144.3433719,3
+Vulval melanoma,start_time,1594826211.9702103,3
+Cosmetic dermatitis,start_time,1594826273.082197,19
+Pseudocyst of the ear,start_time,1594826468.2974343,8
+Venous thrombosis,start_time,1594826579.1678796,77
+Warts,start_time,1594827205.6118839,39
+Haemangioma,start_time,1594827538.5211954,31
+Fibrous papule of the face,start_time,1594827815.589896,3
+molluscum contagiosum,start_time,1594827878.338965,15
+IgA vasculitis,start_time,1594828053.4441543,19
+Mixed tumour of the skin,start_time,1594828245.9665275,19
+Chronic venous insufficiency,start_time,1594828443.0205238,37
+Fibrofolliculoma,start_time,1594828769.0985456,7
+Neonatal pustulosis of transient myeloproliferative disorder,start_time,1594828859.224829,0
+Neonatal pustulosis of transient myeloproliferative disorder,end_time,1594828859.2249675,0
+Nevus flammeus,start_time,1594828897.7119627,5
+Purpura fulminans,start_time,1594828972.937099,0
+Purpura fulminans,end_time,1594828972.9372203,0
+reactions to silicone,start_time,1594829013.2998805,16
+Myxofibrosarcoma,start_time,1594829182.4576178,21
+post-thrombophlebitic syndrome,start_time,1594829386.3197665,0
+post-thrombophlebitic syndrome,end_time,1594829386.3198824,0
+Tinea corporis,start_time,1594829425.335588,11
+Leprosy,start_time,1594829556.7792559,13
+mucinous cyst,start_time,1594829706.5646148,19
+De Lange syndrome,start_time,1594829891.1481576,19
+ARTERIAL AND ARTERIOLAR DISORDERS,start_time,1594830061.5138295,5
+Lymphangioma,start_time,1594830131.4439957,14
+Verrucous carcinoma,start_time,1594830303.375783,4
+Generalized essential telangiectasia,start_time,1594830375.412477,37
+Tinea capitis,start_time,1594830728.064466,4
+Frostbite,start_time,1594830811.4886675,16
+melanoma,start_time,1594830882.7953024,19
+Dermatoses of the External Ear ,start_time,1594831086.9644573,3
+Fixed drug eruption,start_time,1594831148.5689936,18
+Nevus flammeus,start_time,1594831354.0776958,5
+Pilonidal sinus,start_time,1594831429.35923,8
+Giant cell angioblastoma,start_time,1594831523.668456,0
+Giant cell angioblastoma,end_time,1594831523.668583,0
+Venous malformations,start_time,1594831560.9141228,19
+Recurrent aphthous stomatitis,start_time,1594831740.4489417,4
+Recurrent aphthous stomatitis,end_time,1594831767.3804853,1
+Syndromic cleft palate,start_time,1594831808.905898,38
+Chronic venous insufficiency,start_time,1594832124.056535,37
+other dIsorders,start_time,1594832449.5812342,17
+Lipoedema,start_time,1594832649.6226547,19
+Black heel and palm,start_time,1594832841.1533847,18
+purpura simplex,start_time,1594833056.6119697,6
+Superficial epithelioma with sebaceous differentiation,start_time,1594833146.8195431,0
+Superficial epithelioma with sebaceous differentiation,end_time,1594833146.8196654,0
+ARTERIAL AND ARTERIOLAR DISORDERS,start_time,1594833183.0113049,5
+Focal palmoplantar and oral hyperkeratosis syndrome,start_time,1594833257.7337449,0
+Focal palmoplantar and oral hyperkeratosis syndrome,end_time,1594833257.7338655,0
+halo naevus,start_time,1594833296.5005393,2
+Solar urticaria,start_time,1594833349.8400137,19
+Lipoedema,start_time,1594833531.0353508,19
+Parkes Weber syndrome,start_time,1594833711.6665657,19
+Kaposi Sarcoma ,start_time,1594833924.6595318,19
+Eosinophilic ulcer of the oral mucosa,start_time,1594834123.7045915,18
+Microscopic polyangiitis,start_time,1594834367.5109794,49
+Juvenile xanthogranuloma,start_time,1594834819.123737,19
+Lymphatic filariasis,start_time,1594835046.1324334,1
+Lymphatic filariasis,end_time,1594835054.3020134,1
+Lentigo maligna melanoma ,start_time,1594835092.2320597,7
+Ankyloglossia,start_time,1594835193.9620335,5
+Apocrine tubular adenoma,start_time,1594835271.5157304,0
+Apocrine tubular adenoma,end_time,1594835271.5158885,0
+Familial sea-blue histiocytosis,start_time,1594835309.8824677,1
+Familial sea-blue histiocytosis,end_time,1594835316.6760666,0
+Basal cell carcinoma,start_time,1594835361.3454604,39
+Acanthosis nigricans,start_time,1594835496.0036924,15
+reactions to silicone,start_time,1594835666.8068497,16
+Langerhans cell histiocytosis,start_time,1594835836.0764635,18
+Verrucous carcinoma,start_time,1594836035.4925,4
+Neonatal herpes simplex,start_time,1594836110.192857,11
+Tumours of the auricle and external auditory canal,start_time,1594836228.2420297,0
+Tumours of the auricle and external auditory canal,end_time,1594836228.2422183,0
+malakoplakia,start_time,1594836266.9092083,3
+Drug‐induced urticaria, angio‐oedema and anaphylaxis,start_time,1594836327.255643,0
+Drug‐induced urticaria, angio‐oedema and anaphylaxis,end_time,1594836327.2559247,0
+Porokeratosis,start_time,1594836365.2519107,17
+Cutaneous manifestations of hodgkin disease,start_time,1594836599.2885857,13
+Granular cell tumour,start_time,1594836792.3084857,27
+Skin tags,start_time,1594837048.2263904,18
+Diffuse neurofibroma,start_time,1594837220.9185786,18
+Dermoid cysts,start_time,1594837408.7891207,39
+Haemangioma,start_time,1594837741.116423,31
+purpura simplex,start_time,1594837960.4013097,6
+Perianal dermatitis,start_time,1594838063.617651,9
+Eccrine poroma,start_time,1594838187.283851,0
+Eccrine poroma,end_time,1594838187.2839959,0
+Napkin dermatitis,start_time,1594838225.6929584,16
+Fixed drug eruption,start_time,1594838430.2829533,18
+Arsenical keratosis,start_time,1594838657.4441674,15
+Dermatoses of the External Ear ,start_time,1594838851.6934009,3
+Aphthous ulcers,start_time,1594838915.8245332,37
+Neonatal cold injury,start_time,1594839251.0799563,60
+Dyskeratosis congenita,start_time,1594839790.6530557,11
+Occupationally induced skin tumours,start_time,1594839925.478214,19
+Squamous cell carcinoma,start_time,1594840156.218424,58
+Drug‐induced acneform eruptions,start_time,1594840910.7834513,0
+Drug‐induced acneform eruptions,end_time,1594840910.7835898,0
+Skin tags,start_time,1594840948.75756,18
+other dIsorders,start_time,1594841122.3081276,17
+Stevens–Johnson syndrometoxic epidermal necrolysis,start_time,1594841321.6753228,0
+Stevens–Johnson syndrometoxic epidermal necrolysis,end_time,1594841321.6754627,0
+Down syndrome,start_time,1594841366.0808604,39
+swollen arm,start_time,1594841706.6460068,38
+Toxic erythema of the newborn,start_time,1594842076.8660057,5
+Drug reaction with eosinophilia and systemic symptoms,start_time,1594842156.7870393,19
+Dermatoses of Perineal and Perianal Skin ,start_time,1594842357.6665158,0
+Dermatoses of Perineal and Perianal Skin ,end_time,1594842357.666763,0
+Congenital candidiasis,start_time,1594842395.3270612,6
+complications of tattoos,start_time,1594842489.764387,19
+Eosinophilic ulcer of the oral mucosa,start_time,1594842705.8202844,18
+Smooth muscle hamartoma,start_time,1594842924.8603697,8
+Dermatoses Resulting from Disorders of the Veins and Arteries ,start_time,1594843037.002098,1
+Dermatoses Resulting from Disorders of the Veins and Arteries ,end_time,1594843044.2178056,1
+Chronically swollen leg,start_time,1594843085.1436608,19
+Nodular vasculitis,start_time,1594843279.948476,19
+Perianal dermatitis,start_time,1594843408.4214585,9
+Epidermoid cysts,start_time,1594843529.5195127,16

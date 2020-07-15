@@ -94,15 +94,54 @@ def main_download(debug=False, headless=True):
             print(f'hibernating for {ran_hiber_time} seconds.')
             time.sleep(ran_hiber_time)
 
-def main_examine_scraped_statistics(debug=False):
+def main_generate_statistics():
     '''
     Args:
         debug (bool):
     '''
+    def _get_subdir(d):
+        dirs = os.listdir(d)
+        return list(map(lambda x: d + '/' + x, dirs))
 
     root_dir = './data'
+    stats_d = dict()
+
+    # disease name is first level
+    dx_dirs = _get_subdir(root_dir)
+
+    for dx_dir in dx_dirs:
+        if not isdir(dx_dir):
+            continue
+
+        link_dirs = _get_subdir(dx_dir)
+        dx_name = dx_dir.split('/')[-1]
+        if dx_name not in stats_d:
+            stats_d[dx_name] = {'total_links': len(link_dirs), 'total_images': 0, 'links_with_images': []}
+
+        for link_dir in link_dirs:
+            files = _get_subdir(link_dir)
+            img_files = list(filter(lambda x: x.endswith('.jpg'), files))
+
+            if len(img_files) > 0:
+                stats_d[dx_name]['total_images'] += len(img_files)
+                stats_d[dx_name]['links_with_images'].append(link_dir)
+
+    # overall stats
+    total_dx = len(stats_d)
+    total_img = sum([stats_d[x]['total_images'] for x in stats_d])
+
+    stats_d.update({
+        'total_disease_number':  total_dx,
+        'total_images': total_img
+    })
+
+    # save to a new file
+    json_fn = 'stats.json'
+    with open(json_fn, 'w') as outfile:
+        json.dump(stats_d, outfile, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':
 
-    main_download(False, True)
+    main_download(debug=False, headless=True)
+    #main_generate_statistics()
